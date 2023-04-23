@@ -1,0 +1,57 @@
+{
+    "cpaPage": {
+        "mainHeading": "CPA = US equivalent to CA",
+        "mainHeading2":"US CPA (Certified Public Accountant)",
+        "txtone": "4 exams | 12-16 months timeline",
+        "txttwo": "12-16 months timeline",
+        "description": "A Certified Public Accountant is a professional who has earned the CPA license from any of the 55 state accountancy boards of USA all of which are part of NASBA (National Association of the State Boards of Accountancy). Each state board has the authority to grant CPA license. One must meet all the requirements of the state board including Education, Experience and Examinations.",
+        "descriptionTwo":"Due to the wide spread awareness and acceptance of CPA credential, it’s understood that a CPA possesses the required knowledge of all accounting areas as analysing financial statements, financial planning, tax preparation, internal auditing, income tax and other specializations of accounting. In a nutshell, a CPA is someone who has mastered all the elements of the accounting profession. This is also one of the many reasons, professional organizations seek CPAs for complex accounting and finance jobs."
+        
+    },
+    "cmaPage": {
+        "mainHeading": "Boost Management Career With US CMA Certification",
+        "description": "CMA acronym stands for ‘Certified Management Accountant’. CMA is one of the highest management accounting credentials in the world administered by the IMA (Institute for Management Accountants). Spanned over just 2 exams, CMA’s curriculum uses some of the most advanced testing techniques to test management accounting aspirants all over the world if they’re worthy of the designation CPA. Lakhs of aspirants take US CMA exams every year to grow into Management Accountants, Finance analysts and many other roles."
+    },
+    "eaPage": {
+        "description": "The EA Exam, officially known as the Special Enrollment Examination (SEE), is a three-part exam administered by Prometric on behalf of the Internal Revenue Service. Each part is taken as a separate 100 question exam, and you will have 3.5 hours to answer all questions for that part. The IRS Special Enrollment Exam (SEE) is the easiest of the exams that give you unlimited representation rights to practice before the IRS.The other two are the CPA exam and the Bar exam, both of which have significant educational requirements which must be met before you can sit for the test. That does not mean the EA exam is easy. An enrolled agent, to be considered a tax expert, must “demonstrate special competence in tax matters” by passing three separate exams to become an enrolled agent. Difficulty depends on experience, but the credential is attainable for those willing to put in the effort."
+    },
+    "cpaPageOne": {
+        "mainHeading": "CPA Course Duration",
+        "description": [
+            "An aspirant is required to qualify for all the four parts of CPA in under 18 months from the date of the first test results. CPA being a flexible course, the aspirant is constantly in control of his CPA preparation. The aspirant has all the control throughout CPA. Simandhar's aspirants usually qualify for all four parts in under a year, without any pressure, and earn their CPA license."
+        ]
+    },
+    "cpaPageTwo": {
+        "mainHeading": "US CPA Exam in India Every Month from 2021",
+        "description": [
+            "NASBA AICPA and Prometric announced good news for all the CPA aspirants: Testing for CPA exam candidates at test centers in India will begin on January 1, 2021. Also, the candidates may begin to use the scheduler on November 2, 2020."
+        ],
+        "descriptionTwo": [
+            "US CPA aspirants can take the CPA course and exam sections after fulfilling all the required CPA eligibility criteria without restrictions, other than waiting to receive scores from prior attempts of the same section or when there is a major change in the exam. Continuous Testing will replace the existing limited CPA Exam Testing Window model, which only permits candidates to test in India during designated time frames."
+        ]
+    },
+    "ciaPage": {
+        "description": "Earning the Certified internal auditor (CIA) Certification make you grow up the corporate ladder in Audit field. Considering the increasing demand for Internal auditors’ profile globally, the Certified internal auditor qualification has become a single-handed recognised certification in the world. At Simandhar Education, we will guide you through entire registration process with IIA USA (Institute of Internal Auditors, USA) and ensure you're ready for CIA exam."
+    },
+    "ciaPageone": {
+        "mainHeading": "What is Internal Auditing?",
+        "description": "The Institute of Internal Auditors (IIA) has developed the globally accepted definition of internal auditing, as follows: Internal Auditing is an independent, objective assurance and consulting activity designed to add value and improve an organization's operations. It helps an organization accomplish its objectives by bringing a systematic, disciplined approach to evaluate and improve the effectiveness of risk management, control, and governance processes."
+    },
+    "daPage": {
+        "description": "Earning the Certified internal auditor (CIA) Certification make you grow up the corporate ladder in Audit field. Considering the increasing demand for Internal auditors’ profile globally, the Certified internal auditor qualification has become a single-handed recognised certification in the world. At Simandhar Education, we will guide you through entire registration process with IIA USA (Institute of Internal Auditors, USA) and ensure you're ready for CIA exam."
+    },
+    "ifrsPage": {
+        "mainHeading": "",
+        "description": [
+            "International Financial Reporting Standards (IFRS), issued by the International Accounting Standards Board (IASB), is rapidly becoming a benchmark for the accounting world. With a growing number of countries opting for IFRS, the numbers of finance professionals with qualification in IFRS is also increasing globally. The Indian Accounting Standards (Ind AS), notified in 2014, have converged with IFRS, which marked a paradigm shift in the regulatory and reporting landscape for companies in India."
+        ],
+        "descriptionTwo": [
+            "Diploma in IFRS (Diploma IFRS) from the Association of Certified Chartered Accountants is one such qualification which provides detailed conceptual insights into IFRS. It is widely recognised in India and around the world and is useful for finance professionals working or intending to work in an environment requiring accounting and reporting using IFRS/ Ind AS. The programmed is designed to develop an individual’s knowledge of IFRS by providing an understanding of the concepts, principles and application in the international marketplace."
+        ]
+    },
+    "incmaPage": {
+         "mainHeading": "Why must you pursue a CPA Bridge Course",
+         "description": "One of the top training Institutes of US CPA course, Simandhar Education which is official partner of Becker professional education and registered course provider of AICPA gives you end-to-end training and guidance to kickstart a global career in Accounting & Finance. Here, you get a chance to learn from industry’s best, Sripal Jain (CA, CPA, CGMA & Guest Instructor at IIM), 100% placement assistance and a chance to get placed in the Big 4s and the top US-based MNCs. Sripal Jain is also one of the leading authors for Becker CMA program in India. Simandhar education offers Enrolled agent ( EA), US CMA( India equivalent of ICWAI, CMA) , Diploma IFRS and CIA ( Certified internal auditor)- IIA apart from CPA."
+      
+    }
+}

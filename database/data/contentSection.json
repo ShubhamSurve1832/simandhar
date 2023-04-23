@@ -1,0 +1,146 @@
+{
+    "cpaPage": {
+        "mainHeading": "Our Content Partners",
+        "repeats": [
+            {
+                "id": 1,
+                "img":"/img/cpa/becker_logo.png",
+                "para":"Simandhar Education is the official partner of Becker Education International Ltd, a global leader in CPA & CMA exam review. Since its inception, Becker has helped lakhs of CPA & CMA aspirants achieve their goals.",
+                "readBtn":"Read More",
+                "btn":"Free Becker 15 Days Trial"
+            },
+            {
+                "id": 2,
+                "img":"/img/cpa/simdhan_logo.png",
+                "para":"Simandhar Education is the official partner of Becker Education International Ltd, a global leader in CPA & CMA exam review. Since its inception, Becker has helped lakhs of CPA & CMA aspirants achieve their goals.",
+                "readBtn":"Read More",
+                "btn":"Download Prospectus"
+            }
+        ]
+    },
+    "cmaPage": {
+        "mainHeading": "Our Content Partners",
+        "repeats": [
+            {
+                "id": 1,
+                "img":"/img/cpa/becker_logo.png",
+                "para":"Simandhar Education is the official partner of Becker Education International Ltd, a global leader in CPA & CMA exam review. Since its inception, Becker has helped lakhs of CPA & CMA aspirants achieve their goals.",
+                "readBtn":"Read More",
+                "btn":"Free Becker 15 Days Trial"
+            },
+            {
+                "id": 2,
+                "img":"/img/cpa/simdhan_logo.png",
+                "para":"We believe that education has the ability to transform every individual. Today's students just don’t need information to be educated; they need an overall transformation to be successful in life.",
+                
+                "btn":"Download Prospectus"
+            }
+        ]
+    },
+    "designation":{
+        "mainHeading":"US CMA Designation offers great value",
+        "lists":[{"id":1,"list":"Career Avenues"},{"id":2,"list":"International Recognition"},{"id":3,"list":"Global Qualification"},{"id":4,"list":" In-depth knowledge about Management Accounting, Finance, Business Economics and Management concepts required for a business professional"},{"id":5,"list":" Elite Network of CPAs"},{"id":6,"list":" Elite Network of CMAs"}
+        ]
+    },
+    "eaPage": {
+        "mainHeading": "Prepare with India's Trusted Institute",
+        "repeats": [
+            {
+                "id": 2,
+                "img":"/img/cpa/simdhan_logo.png",
+                "para":"We believe that education has the ability to transform every individual. Today's students just don’t need information to be educated; they need an overall transformation to be successful in life.",
+                "btn":"Download Prospectus"
+            }        
+        ],
+        "lists":[
+            {"id":0,"list":"We are the Channel Partner of AICPA"},
+            {"id":1,"list":" Official partners of Becker Professional Education"},
+            {"id":2,"list":" Approved partner of the Fast Forward Academy for Enrolled Agent in India"}
+        ]
+    },
+    "prometric": {
+        "discription": ["Regarding the US CPA exams fees, if candidates are testing at any international test center, he/she must pay an exam administration fee before planning with Prometric. To do this, log in to your NASBA CPA Candidate Account Portal and select “International Administration”. The international administration process for the India region is now available."],
+        "mainHeading": "CPA Prometric Locations/Centres in India",
+        "lists": [
+            {
+                "id": 1,
+                "list": "Hyderabad"
+            },
+            {
+                "id": 2,
+                "list": "Ahmedabad"
+            },
+            {
+                "id": 3,
+                "list": "Bangalore"
+            },
+            {
+                "id": 4,
+                "list": "Calcutta"
+            },
+            {
+                "id": 5,
+                "list": "Chennai"
+            },
+            {
+                "id": 6,
+                "list": "Mumbai"
+            },
+            {
+                "id": 7,
+                "list": "New Delhi"
+            },
+            {
+                "id": 8,
+                "list": "Trivandrum"
+            }
+        ]
+    },
+    "Locations": {
+        "discription": ["CPA acronym stands for ‘Certified Public Accountant.’ CPA is one of the highest accounting credentials in the world administered by the AICPA (American Institute of Certified Professional Accountants). CPA is considered the gold standard in the fields of accounting and finance. Consisting of just four exams, CPA’s curriculum uses some of the most advanced testing techniques to test aspirants all over the world if they’re worthy of the designation CPA. Lakhs of aspirants take US CPA exams every year to grow professionally into Public Accountants, Financial Analysts, Controllers, and many other roles."],
+        "mainHeading": "Make your global accounting career with US CPA",
+        "shortHeading":"CPA designation offers great value, it gives you",
+        "lists": [
+            {
+                "id": 1,
+                "list": "Significant Career Opportunities"
+            },
+            {
+                "id": 2,
+                "list": "International Recognition"
+            },
+            {
+                "id": 3,
+                "list": "Global Qualification"
+            },
+            {
+                "id": 4,
+                "list": "Extensive Knowledge about Accounting, Auditing, Finance, Tax, Business Economics and International Accounting Standards (US GAAP + IFRS)"
+            },
+            {
+                "id": 5,
+                "list": "Elite Network of CPAs"
+            },
+            {
+                "id": 6,
+                "list": "Authority to practice Public Accountancy all over the world (in India as well)"
+            }
+        ]
+    },"ifrsPage": {
+        "mainHeading": "Prepare with India's Trusted Institute",
+        "repeats": [
+            {
+                "id": 2,
+                "img":"/img/cpa/simdhan_logo.png",
+                "para":"We believe that education has the ability to transform every individual. Today's students just don’t need information to be educated; they need an overall transformation to be successful in life.",
+                
+                "btn":"Download Prospectus"
+            }        
+        ],
+        "lists":[
+            {"id":0,"list":"We are the Channel Partner of AICPA"},
+            {"id":1,"list":" Official partners of Becker Professional Education"},
+            {"id":2,"list":" Approved partner of the Fast Forward Academy for Enrolled Agent in India"}
+        ]
+    }
+}

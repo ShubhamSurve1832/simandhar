@@ -1,0 +1,102 @@
+{
+    "cpaPage": {
+        "mainHeding": "Buy Hassle-Free Online Courses",
+        "course": [
+            {
+                "id": 1,
+                "img": "/img/cpa/course01.jpg",
+                "name": "yogesh",
+                "btnText": "yogi"
+            },
+            {
+                "id": 2,
+                "img": "/img/cpa/course02.jpg",
+                "name": "Rahul",
+                "btnText": "Rahul"
+            },
+            {
+                "id": 3,
+                "img": "/img/cpa/course03.jpg",
+                "name": "Rohit",
+                "btnText": "Rohit"
+            }
+        ]
+    },
+    "cmaPage": {
+        "mainHeding": "Buy Hassle-Free Online Courses",
+        "course": [
+            {
+                "id": 1,
+                "img": "/img/cpa/course01.jpg",
+                "name": "yogesh",
+                "btnText": "yogi"
+            },
+            {
+                "id": 2,
+                "img": "/img/cpa/course02.jpg",
+                "name": "Rahul",
+                "btnText": "Rahul"
+            },
+            {
+                "id": 3,
+                "img": "/img/cpa/course03.jpg",
+                "name": "Rohit",
+                "btnText": "Rohit"
+            }
+        ]
+    },
+    
+        "studentpage": {
+            "mainheading": "Student Corner",
+            "boxes": [
+                {
+                    "id": 1,
+                    "spanheading":"CMA Tips | ",
+                    "smallheading":"February 8, 2023",
+                    "subheading":"US CMA Vs Indian CMA",
+                    "description":"A global standard for management accountants and financial professionals looking to advance their career opportunities in less than a year is the CMA, or Certified Management Accountants, program. The US CMA course is the top qualification in the subject of accounting and management, and it is offered by the Institute of Management Accountants (IMA) in almost 150 countries. The Institute of Cost Accountants of India oversees the CMA program in India. The CMA program offered…",
+                    "readmore":"Read More",
+                    "img":"/img/student_corner_banner01.webp"
+                },
+                {
+                    "id": 2,
+                    "spanheading":"Accounting | ",
+                    "smallheading":"December 22, 2022",
+                    "subheading":"CPA Exam : 2024 will be a game changer!",
+                    "description":"The CPA Evolution Initiative has announced a transition policy for the 2024 CPA exam. There has been a lot of discussion about the evolution of CPAs. Let’s take a closer look at what it means: A survey of over 1200 accounting department chairs asks if data analytics, IT auditing, and cyber security are taught in their accounting programs. According to the gap analysis results, 64% of schools teach data analytics, 40% teach predictive analysis, 23%…",
+                    "readmore":"Read More",
+                    "img":"/img/student_corner_banner02.webp"
+    
+                }
+            ]
+        },
+        "studentalumni": {           
+            "boxes": [
+                {
+                    "id": 1,
+                    "spanheading":"CMA Tips | ",
+                    "smallheading":"February 8, 2023",
+                    "subheading":"US CMA Vs Indian CMA",
+                    "description":"A global standard for management accountants and financial professionals looking to advance their career opportunities in less than a year is the CMA, or Certified Management Accountants, program. The US CMA course is the top qualification in the subject of accounting and management, and it is offered by the Institute of Management Accountants (IMA) in almost 150 countries. The Institute of Cost Accountants of India oversees the CMA program in India. The CMA program offered…",
+                    "readmore":"Read More",
+                    "img":"/img/satyam_jain.webp",
+                    "topic":"US CMA Study Tips & Strategies by",
+                    "name":"Satyam Jain - US CMA Alumni"
+                },
+                {
+                    "id": 2,
+                    "spanheading":"Accounting | ",
+                    "smallheading":"December 22, 2022",
+                    "subheading":"CPA Exam : 2024 will be a game changer!",
+                    "description":"The CPA Evolution Initiative has announced a transition policy for the 2024 CPA exam. There has been a lot of discussion about the evolution of CPAs. Let’s take a closer look at what it means: A survey of over 1200 accounting department chairs asks if data analytics, IT auditing, and cyber security are taught in their accounting programs. According to the gap analysis results, 64% of schools teach data analytics, 40% teach predictive analysis, 23%…",
+                    "readmore":"Read More",
+                    "img":"/img/Vipin.webp",
+                    "topic":"US CMA Study Tips & Strategies by",
+                    "name":""
+                    
+                }
+            ]
+        }
+    
+
+}

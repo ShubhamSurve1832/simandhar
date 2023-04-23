@@ -1,0 +1,183 @@
+{
+    "cpaPage": {
+        "mainHeading": "CPA Curriculum",
+        "heading": "The curriculum of CPA is spread across 4 subjects.",
+        "tab_button": [
+            {
+                "id": 1,
+                "name": "BEC- Business Environment Concepts"
+            },
+            {
+                "id": 2,
+                "name": "AUD- Auditing and Attestation"
+            },
+            {
+                "id": 3,
+                "name": "FAR- Financial Accounting and Reporting"
+            },
+            {
+                "id": 4,
+                "name": "REG- Regulations"
+            }
+        ],
+        
+        "description": [
+            {
+                "id": 1,
+                "time": "Duration",
+                "hour": "4 hour Exam",
+                "quesans": [
+                    {
+                        "id": 1,
+                        "question":"Question Pattern",
+                        "answers":["62 multiple choice questions(50% Weightage) & 5 short task-based simulations (35% Weightage),Written communication( 15% Weightage)"]
+
+                    },
+                    {
+                        "id": 2,
+                        "question":"Syllabus",
+                        "answers":["Corporate Governance (16% - 20%)","Economic Concepts and Analysis (16% - 20%)","Financial Management (19% - 23%)","Information Systems and Communications (15% - 19%)","Strategic Planning (10% - 14%)","Operations Management (12% - 16%)"]
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "time": "Duration",
+                "hour": "4 hour Exam",
+                "quesans": [
+                    {
+                        "id": 1,
+                        "question":"Question Pattern",
+                        "answers":["72 multiple choice questions (50% Weightage) & 9 short task-based simulations (50% Weightage)"]
+
+                    },
+                    {
+                        "id": 2,
+                        "question":"Syllabus",
+                        "answers":["Engagement Acceptance & understanding the environment (12-16%)","Understanding the entity and its environment (16-20%)","Performing Audit procedures & evaluating evidence (16-20%)","Evaluating Audit findings, communications & reporting (16-20%)","Accounting & review services engagement (12-16%)","Professional responsibilities (16-20%)"]
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "time": "Duration",
+                "hour": "4 hour Exam",
+                "quesans": [
+                    {
+                        "id": 1,
+                        "question":"Question Pattern",
+                        "answers":["66 multiple choice questions (50% Weightage) & 9 short task-based simulations (50% Weightage)"]
+
+                    },
+                    {
+                        "id": 2,
+                        "question":"Syllabus",
+                        "answers":["Conceptual Framework, Standard Setting and presentation of Financial Statements (17-23%)","Financial Statement Accounts: Recognition, Measurement, Valuation, Calculation, Presentation and Disclosures (27-33%)","Specific Transactions, Events and Disclosures: Recognition, Measurement, Valuation, Calculation, Presentation, and Disclosures (27% - 33%)","Governmental Accounting and Reporting (8% - 12%)","Not-for-Profit (Nongovernmental) Accounting and Reporting (8%-12%)"]
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "time": "Duration",
+                "hour": "4 hour Exam",
+                "quesans": [
+                    {
+                        "id": 1,
+                        "question":"Question Pattern",
+                        "answers":["76 multiple choice questions (50% Weightage) & 9 short task-based simulations (50% Weightage)"]
+
+                    },
+                    {
+                        "id": 2,
+                        "question":"Syllabus",
+                        "answers":["Ethics, Professional, and Legal Responsibilities (15% -19%)","Business Law (17% - 21%)","Federal Tax Process, Procedures, Accounting, and Planning (11% - 15%)","Evaluating Audit findings, communications & reporting (16-20%)","Federal Taxation of Property Transactions (12% - 16%)","Federal Taxation of Individuals (13% - 19%)","Federal Taxation of Entities (18% - 24%)"]
+                    }
+                ]
+            }
+        ]
+    },
+    "eaPage": {
+        "mainHeading": " ",
+        "heading": "",
+        "tab_button": [
+            {
+                "id": 1,
+                "name": "Eligibility"
+            },
+            {
+                "id": 2,
+                "name": "Kind of questions"
+            },
+            {
+                "id": 3,
+                "name": "Cost to take EA exam"
+            },
+            {
+                "id": 4,
+                "name": "EA Review Materials"
+            },
+            {
+                "id": 5,
+                "name": "Advanced Learning Tools"
+            }
+        ],
+        
+        "description": [
+            {
+                "id": 1,                
+                "quesans": [
+                    {
+                        "id": 1,
+                        "question":"There's no prior qualification required if you wish to pursue EA. A graduate with basic accounting knowledge can apply for the same, but the applicant must prove his/her competency for the tax-pertaining content. This can happen in two ways:",
+                        "answers":["Clear the Special Enrollment Exam (EA Exam)", "IRS Experience"]
+                    }
+                ]
+            },
+            {
+                "id": 2,                
+                "quesans": [
+                    {
+                        "id": 2,
+                        "question":"Despite popular opinion, the EA exam will never ask you to fill out a tax form. Instead, you will put your mastery of tax law to the test as you apply it to a variety of circumstances.There are three types of multiple-choice questions on the exam:",
+                        "answers":["Direct Questions", "Incomplete Sentences", "All of the Following Except"]
+
+                    }
+                ]
+            },
+            
+            {
+                "id": 3,                
+                "quesans": [
+                    {
+                        "id": 3,
+                        "question":"The EA exam fee is currently $203 per attempt, and you have four attempts per testing season to pass the exams.                        You can reschedule your appointment online or by phone.                        Rescheduling fees:",
+                        "answers":["30+ days: no fee", "5-29 days: $35.00","5 days or less: You will be required to pay another full examination fee if you reschedule less than five calendar days before your appointment date."]
+
+                    }
+                ]
+            },
+            {
+                "id": 4,                
+                "quesans": [
+                    {
+                        "id": 4,
+                        "question":"",
+                        "answers":["Paperback for all 3 EA exams", "45+ concise video lectures (10+ Hours)","EA review questions with detailed explanations","EA practice examinations"]
+
+                    }
+                ]
+            },
+            {
+                "id": 5,                
+                "quesans": [
+                    {
+                        "id": 5,
+                        "question":"",
+                        "answers":["Study anywhere (desktop, mobile & tablet friendly)", "Online Community & instructor support","Access learning materials side-by-side with split-view","Set goals + focus with easy to understand progress metrics","Integrated IRS Forms and Publications, Excel, and more!","Digital flashcards NEW"]
+
+                    }
+                ]
+            }
+        ]
+    }
+}

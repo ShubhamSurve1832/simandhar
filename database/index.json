@@ -1,0 +1,502 @@
+{
+    "offerRow": {
+        "img": "/img/flash_sale.png",
+        "offerone": "10",
+        "discount": "Discount on All Courses",
+        "promoCode": "10",
+        "availbtn": "Avail Now"
+    },
+    "placementAlumni": {
+        "mainheading": "Placements & Alumni",
+        "list": [
+            {
+                "img": "/img/place_img01.png",
+                "name": "Anoushka Baghla",
+                "course": "US CPA License",
+                "btn": "View CPA License",
+                "path":"/"
+            },
+            {
+                "img": "/img/place_img02.png",
+                "name": "Shrikesh Lahoti",
+                "course": "US CPA, Deloitte, Mumbai",
+                "btn": "View All Placements",
+                "path":"/testmonial"
+            },
+            {
+                "img": "/img/place_img03.jpg",
+                "name": "Dhruv Patel",
+                "course": "FAR-98 - BEC-98 - REG-91 - AUD-97",
+                "btn": "View All Toppers",
+                "path":"/"
+            }
+        ]
+    },
+    "awardAlumni": {
+        "mainheading": "Our Students Are Placed In The Following Companies",
+        "list": [
+            {
+                "img": "/img/place_img01.png",
+                "name": "Anoushka Baghla",
+                "course": "US CPA License",
+                "btn": ""
+            },
+            {
+                "img": "/img/place_img02.png",
+                "name": "Shrikesh Lahoti",
+                "course": "US CPA, Deloitte, Mumbai",
+                "btn": ""
+            },
+            {
+                "img": "/img/place_img03.jpg",
+                "name": "Dhruv Patel",
+                "course": "FAR-98 - BEC-98 - REG-91 - AUD-97",
+                "btn": ""
+            }
+        ]
+    },
+    "corporateTab": {
+        "corporateTitle": [
+            {
+                "id": 0,
+                "title": "Our Corporate Tie-Ups"
+                
+            },
+            {
+                "id": 1,
+                "title": "Our Loan Partners"
+                
+            },
+            {
+                "id": 2,
+                "title": "Media Recognitions"              
+            }
+        ],
+        "corporateLogo": [
+            {
+                "id": 0,
+                "pagepath":"/simandharTieUps",
+                "list1": [
+                    {
+                        "id": 0,
+                        "img": "/img/co_logo01.jpg",
+                        "path": ""
+                    },
+                    {
+                        "id": 1,
+                        "img": "/img/co_logo02.jpg",
+                        "path": ""
+                    },
+                    {
+                        "id": 2,
+                        "img": "/img/co_logo03.jpg",
+                        "path": ""
+                    },
+                    {
+                        "id": 3,
+                        "img": "/img/co_logo04.jpg",
+                        "path": ""
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "pagepath":"/",
+                "list1": [
+                    {
+                        "id": 0,
+                        "img": "/img/partners_logo01.jpg",
+                        "path": "https://www.lendingpitstop.com/home/index"
+                    },
+                    {
+                        "id": 1,
+                        "img": "/img/partners_logo02.jpg",
+                        "path": "https://www.liquiloans.com/"
+                    },
+                    {
+                        "id": 2,
+                        "img": "/img/partners_logo03.jpg",
+                        "path": "https://propelld.com/"
+                    },
+                    {
+                        "id": 3,
+                        "img": "/img/partners_logo04.jpg",
+                        "path": "https://eduvanz.com/"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "pagepath":"/",
+                "list1": [
+                    {
+                        "id": 0,
+                        "img": "/img/media_logo01.jpg",
+                        "path": ""
+                    },
+                    {
+                        "id": 1,
+                        "img": "/img/media_logo02.jpg",
+                        "path": ""
+                    },
+                    {
+                        "id": 2,
+                        "img": "/img/media_logo03.jpg",
+                        "path": ""
+                    },
+                    {
+                        "id": 3,
+                        "img": "/img/media_logo04.jpg",
+                        "path": ""
+                    }
+                ]
+            }
+        ]
+    },
+    "programTab": {
+        "mainheading": "Courses",
+        "subheading": "Kickstart Your Career in Accounting & Finance",
+        "programTitle": [
+            {
+                "id": 0,
+                "label": "US CPA"
+            },
+            {
+                "id": 1,
+                "label": "US CMA"
+            },
+            {
+                "id": 2,
+                "label": "EA"
+            },
+            {
+                "id": 3,
+                "label": "CIA"
+            },
+            {
+                "id": 4,
+                "label": "Data Analytics"
+            },
+            {
+                "id": 5,
+                "label": "Simandhar Saamarth"
+            }
+        ],
+        "programContent": [
+            {
+                "id": 0,
+                "programdesc": "Earn it in 6-9 Months Jobs in BIG 4 and MNCs",
+                "lists": [
+                    {
+                        "id": 0,
+                        "list": "3 CPA Watt Sells Award Winning Institute"
+                    },
+                    {
+                        "id": 1,
+                        "list": "Best CPA Institute (Awarded by Becker)"
+                    },
+                    {
+                        "id": 2,
+                        "list": "4 exams within 9 months"
+                    },
+                    {
+                        "id": 3,
+                        "list": "Placement assistance at BIG 4 and US Based MNCs"
+                    },
+                    {
+                        "id": 4,
+                        "list": "Success coaching and live classes by Sripal Jain (CA, CPA)"
+                    },
+                    {
+                        "id": 5,
+                        "list": "Free CPA Eligibility Check"
+                    },
+                    {
+                        "id": 6,
+                        "list": "End-to-end support for CPA Licensing Support, state board selection & NTS"
+                    },
+                    {
+                        "id": 7,
+                        "list": "Study material from Becker"
+                    },
+                    {
+                        "id": 8,
+                        "list": "Live & recorded sessions"
+                    },
+                    {
+                        "id": 9,
+                        "list": "India’s no. 1 review provider for CPA license"
+                    },
+                    {
+                        "id": 10,
+                        "list": "Channel partner of AICPA"
+                    },
+                    {
+                        "id": 11,
+                        "list": "AI-based technology for Mock tests, SIMs and MCQs"
+                    },
+                    {
+                        "id": 12,
+                        "list": "Corporate grooming session"
+                    },
+                    {
+                        "id": 13,
+                        "list": "Support for Canada CPA MOU and US CPA"
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "programdesc": "Earn it in 6-9 Months Jobs in BIG 4 and MNCs",
+                "lists": [
+                    {
+                        "id": 0,
+                        "list": "2 exams within 9-10 months"
+                    },
+                    {
+                        "id": 1,
+                        "list": "Placement assistance at BIG 4 and US Based MNCs"
+                    },
+                    {
+                        "id": 2,
+                        "list": "End-to-end CMA Licensing Support"
+                    },
+                    {
+                        "id": 3,
+                        "list": "Success coaching and live classes by Experts"
+                    },
+                    {
+                        "id": 4,
+                        "list": "Scholarships for students (Pursuing CMA alongside University degree)"
+                    },
+                    {
+                        "id": 5,
+                        "list": "Study material from Becker"
+                    },
+                    {
+                        "id": 6,
+                        "list": "Live & recorded sessions"
+                    },
+                    {
+                        "id": 7,
+                        "list": "Support for IMA registration, IMA Scholarship for US CMA pursuing from university"
+                    },
+                    {
+                        "id": 8,
+                        "list": "AI-based technology for Mock tests, SIMs and MCQs"
+                    },
+                    {
+                        "id": 9,
+                        "list": "Corporate grooming session"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "programdesc": "Earn it in 6-9 Months Jobs in BIG 4 and MNCs",
+                "lists": [
+                    {
+                        "id": 0,
+                        "list": "3 parts within 8-10 months"
+                    },
+                    {
+                        "id": 1,
+                        "list": "Success coaching and live classes by Sripal Jain"
+                    },
+                    {
+                        "id": 2,
+                        "list": "Live & recorded sessions"
+                    },
+                    {
+                        "id": 3,
+                        "list": "Placement assistance at BIG 4 and US Based MNCs"
+                    },
+                    {
+                        "id": 4,
+                        "list": "Support for EA registration with IRS, PTIN (Preparer Tax Identification Number)"
+                    },
+                    {
+                        "id": 5,
+                        "list": "US EA Review"
+                    },
+                    {
+                        "id": 6,
+                        "list": "World’s acclaimed EA review provider"
+                    },
+                    {
+                        "id": 7,
+                        "list": "AI-based technology for Mock tests, SIMs and MCQs"
+                    },
+                    {
+                        "id": 8,
+                        "list": "Corporate grooming session for EA and CPE requirements through Becker’s US tax program"
+                    },
+                    {
+                        "id": 9,
+                        "list": "100% Placement Assistance"
+                    },
+                    {
+                        "id": 10,
+                        "list": "End-to-end Licensing Support"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "programdesc": "Earn it in 6-9 Months Jobs in BIG 4 and MNCs",
+                "lists": [
+                    {
+                        "id": 0,
+                        "list": "3 parts within 8-10 months"
+                    },
+                    {
+                        "id": 1,
+                        "list": "End-to-end assistance"
+                    },
+                    {
+                        "id": 2,
+                        "list": "Placement assistance at BIG 4 and US Based MNCs"
+                    },
+                    {
+                        "id": 3,
+                        "list": "Support for CIA registration with IIA"
+                    },
+                    {
+                        "id": 4,
+                        "list": "Gleim Access (test banks and MCQs)"
+                    },
+                    {
+                        "id": 5,
+                        "list": "Corporate grooming session"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "programdesc": "Earn it in 6-9 Months Jobs in BIG 4 and MNCs",
+                "lists": [
+                    {
+                        "id": 0,
+                        "list": "2 exams within 9-10 months"
+                    },
+                    {
+                        "id": 1,
+                        "list": "Placement assistance at BIG 4 and US Based MNCs"
+                    },
+                    {
+                        "id": 2,
+                        "list": "Success coaching and live classes by Experts"
+                    },
+                    {
+                        "id": 3,
+                        "list": "Scholarships for students (Pursuing CMA alongside University degree)"
+                    },
+                    {
+                        "id": 4,
+                        "list": "Live & recorded sessions"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "programdesc": "Earn it in 6-9 Months Jobs in BIG 4 and MNCs",
+                "lists": [
+                    {
+                        "id": 0,
+                        "list": "2 exams within 9-10 months"
+                    },
+                    {
+                        "id": 1,
+                        "list": "Placement assistance at BIG 4 and US Based MNCs"
+                    },
+                    {
+                        "id": 2,
+                        "list": "Success coaching and live classes by Experts"
+                    },
+                    {
+                        "id": 3,
+                        "list": "Scholarships for students (Pursuing CMA alongside University degree)"
+                    },
+                    {
+                        "id": 4,
+                        "list": "Live & recorded sessions"
+                    }
+                ]
+            }
+        ]
+    },
+    "education": {
+        "mainheading": "Why Simandhar Education?",
+        "description": "Simandhar Education is India's Most Trusted Training Institute for US CPA, US CMA, Diploma IFRS, and Enrolled Agent.",
+        "list1": "CPA bridge course to meet the shortfall of credits",
+        "list2": "200+ Placement Partners",
+        "list3": "10000+  Students Success Stories",
+        "list4": "More than 15 Expert Faculties",
+        "list5": "End-to-end Licensing Support",
+        "img1": "/img/education03.webp",
+        "img2": "/img/education04.webp"
+    },
+    "secPageTitle": {
+        "heading": "Download Latest Newsletter"
+    },
+    "testimonialTitle": {
+        "heading": "Need Placement Info"
+    },
+    "elijahWattSells": {
+        "heading": "Free US CPA Eligibility Check"
+    },
+    "basicsOfAccounting": {
+        "heading": "Register for the Course"
+    },
+    "downloadProspectus":{
+        "heading": "Download Prospectus"
+    },
+    "downloadSchedual":{
+        "heading":"Download Schedual"
+    },
+    "saamarthForm":{
+        "heading":"Simandhar Download Schedule Saamarth Workshop"
+    },
+    "eligibility":{
+        "heading":"Check Your Eligibility"
+    },
+    "homeUSP": {
+        "lists": [
+            {
+                "id": "1",
+                "image": "/img/usp01.png",
+                "title": "Expert Counselling and support for CPA, CMA, EA & CIA"
+            },
+            {
+                "id": "2",
+                "image": "/img/usp02.png",
+                "title": "Live Interactive Classes"
+            },
+            {
+                "id": "3",
+                "image": "/img/usp03.png",
+                "title": "100% job assistance for CPA, CMA & EA in India, USA and Canada."
+            }
+        ]
+    },
+    "canadaUSP": {
+        "heading":"Roadmap to CPA Canada Offering",
+        "lists": [
+            {
+                "id": "1",
+                "image": "/img/usp04.png",
+                "title": "Help you attain the CPA Canada designation"
+            },
+            {
+                "id": "2",
+                "image": "/img/usp05.png",
+                "title": "Assist you with Canadian Immigration"
+            },
+            {
+                "id": "3",
+                "image": "/img/usp06.png",
+                "title": "Guide every step during the process"
+            }
+        ]
+    }
+}

@@ -1,0 +1,96 @@
+{
+    "testimonialTab": {
+        "mainheading":"sga",
+        "corporateTitle": [
+            {
+                "id": 0,
+                "title": "US CPA"
+            },
+            {
+                "id": 1,
+                "title": "US CMA"
+            },
+            {
+                "id": 2,
+                "title": "EA"
+            }
+        ],
+        "corporateLogo": [
+            {
+                "id": 0,
+                "list1": [
+                    {
+                        "id": 0,
+                        "img": "/img/co_logo01.jpg",
+                        "path":""
+                    },
+                    {
+                        "id": 1,
+                        "img": "/img/co_logo02.jpg",
+                        "path":""
+                    },
+                    {
+                        "id": 2,
+                        "img": "/img/co_logo03.jpg",
+                        "path":""
+                    },
+                    {
+                        "id": 3,
+                        "img": "/img/co_logo04.jpg",
+                        "path":""
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "list1": [
+                    {
+                        "id": 0,
+                        "img": "/img/partners_logo01.jpg",
+                        "path":"https://www.lendingpitstop.com/home/index"
+                    },
+                    {
+                        "id": 1,
+                        "img": "/img/partners_logo02.jpg",
+                        "path":"https://www.liquiloans.com/"
+                    },
+                    {
+                        "id": 2,
+                        "img": "/img/partners_logo03.jpg",
+                        "path":"https://propelld.com/"
+                    },
+                    {
+                        "id": 3,
+                        "img": "/img/partners_logo04.jpg",
+                        "path":"https://eduvanz.com/"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "list1": [
+                    {
+                        "id": 0,
+                        "img": "/img/media_logo01.jpg",
+                        "path":""
+                    },
+                    {
+                        "id": 1,
+                        "img": "/img/media_logo02.jpg",
+                        "path":""
+                    },
+                    {
+                        "id": 2,
+                        "img": "/img/media_logo03.jpg",
+                        "path":""
+                    },
+                    {
+                        "id": 3,
+                        "img": "/img/media_logo04.jpg",
+                        "path":""
+                    }
+                ]
+            }
+        ]
+    }
+}

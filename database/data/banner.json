@@ -1,0 +1,159 @@
+{
+    "cpaPage": {
+        "mainHeding": "US Certified Public Accountant Exam",
+        "img": "/img/cpa/banner_video.jpg",
+        "lists": [
+            {
+                "id": 1,
+                "list": "3 CPA Watt Sells Award Winners"
+            },
+            {
+                "id": 2,
+                "list": "Best CPA Institute (Awarded by Becker)"
+            },
+            {
+                "id": 3,
+                "list": "International Recognition"
+            },
+            {
+                "id": 4,
+                "list": "Upskill in US GAAP & Business Laws"
+            },
+            {
+                "id": 5,
+                "list": "Flexible & Easy to Pass"
+            },{
+                "id":6,
+                "list":"Career opportunities at Big 4 & MNCs"
+            }
+        ]
+    },
+    "cmaPage": {
+        "mainHeding": "US Certified Management  Accountant ",
+        "img": "/img/cpa/cma_banner.webp",
+        "lists": [
+            {
+                "id": 1,
+                "list": "High Level Globally Recognised Certification in Management Accounting"
+            },
+            {
+                "id": 2,
+                "list": "Boost your Career in Management Accounting & Controlling with US CMA Certification"
+            },
+            {
+                "id": 3,
+                "list": "International Recognition"
+            },
+            {
+                "id": 4,
+                "list": "Flexible & Easy to Pass"
+            }
+        ]
+    },
+    "eaPage": {
+        "mainHeding": "Enrolled Agent",
+        "img": "/img/cpa/ea_banner.webp",
+        "lists": [
+            {
+                "id": 1,
+                "list": "EA gives a boost to the credibility and respect amongst the peers."
+            },
+            {
+                "id": 2,
+                "list": "Enrolled Agents are the oldest Tax Experts and have been there since 1884."
+            },
+            {
+                "id": 3,
+                "list": "Client communications are confidential if relating to non-criminal tax matters or proceedings."
+            },
+            {
+                "id": 4,
+                "list": "Ability to help referred clients with their IRS issues."
+            }
+        ]
+    },
+    "ciaPage": {
+        "mainHeding": "CIA Course",
+        "img": "/img/cpa/cia_banner.webp",
+        "lists": [
+            {
+                "id": 1,
+                "list": "Global recognition"
+            },
+            {
+                "id": 2,
+                "list": "Higher earning potential"
+            },
+            {
+                "id": 3,
+                "list": "Greater learning with Institute of Internal Auditor membership"
+            },
+            {
+                "id": 4,
+                "list": "Skill upgrades"
+            },
+            {
+                "id": 5,
+                "list": "Great career opportunities"
+            },
+            {
+                "id": 6,
+                "list": "Job security and chances of becoming the Chief Internal Auditor in the Corporate ladder"
+            }
+        ]
+    },
+    "daPage": {
+        "mainHeding": "About Data Analytics",
+        "img": "/img/data_anyalist_banner.webp",
+        "lists": [         ]
+    },
+    "ifrsPage": {
+        "mainHeding": "International Financial Reporting Standards",
+        "img": "/img/ifrs_banner.png",
+        "lists": [
+            {
+                "id": 1,
+                "list": "The programme is based on the ‘Diploma in IFRS’ from ACCA syllabus."
+            },
+            {
+                "id": 2,
+                "list": "It aims to prepare participants for the Diploma IFRS examination conducted by ACCA."
+            },
+            {
+                "id": 3,
+                "list": "The programme covers 75 hours of intensive and interactive Live Online training backed by recording of each and every session."
+            },
+            {
+                "id": 4,
+                "list": "Sessions will be held during the weekends and will not only cover the topic but also differences between IFRS, US GAAP, Ind AS wherever applicable."
+            },
+            {
+                "id": 5,
+                "list": "Monitoring test and mock examination shall be conducted to help students prepare well for the examination."
+            }
+        ]
+    },
+    "saamarthPage": {
+        "mainHeding": "Simandhar Saamarth Workshop",
+        "para":"Making you job-ready to help you get your dream job in Big 4s",
+        "img": "/img/saamarth_banner.png",
+        "lists": [
+            {
+                "id": 1,
+                "list": "Strong foundation of basic accounting concepts."
+            },
+            {
+                "id": 2,
+                "list": "Knowledge of uS GAAP, US GAAS, IFRS and US Tax"
+            },
+            {
+                "id": 3,
+                "list": "Interview preparation and mock interviews"
+            },
+            {
+                "id": 4,
+                "list": "Practical assessments and case studies"
+            }
+        ]
+    }
+}

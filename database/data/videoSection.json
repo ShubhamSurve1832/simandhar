@@ -1,0 +1,114 @@
+{
+    "homePage": {
+        "mainheading": "From the Students Who Made It Big",
+        "videos": [
+            {
+                "id": 1,
+                "path": "https://www.youtube.com/embed/G5UTAcstmCI"
+            },
+            {
+                "id": 2,
+                "path": "https://www.youtube.com/embed/3rEAl2T7M98"
+            },
+            {
+                "id": 3,
+                "path": "https://www.youtube.com/embed/lf0ohX8r2w0"
+            }
+        ],
+        "tabs": [
+            {
+                "id": 1,
+                "path": "/img/video_thumb01.png",
+                "heading":"CA final to CPA| Cleared CPA exam in 8.5 months | Supriya | Simandhar CPA alumni",
+                "span":"Placed at EY (above 9 LPA package)"
+            },
+            {
+                "id": 2,
+                "path": "/img/video_thumb02.jpg",
+                "heading":"Bcom to US CMA & US CPA| Mani Venkat- Simandhar Alumni| Placed at EY",
+                "span":"Interview"
+            },
+            {
+                "id": 3,
+                "path": "/img/video_thumb03.jpg",
+                "heading":"How I scored 94 in REG | CPA USA 2019 | Sherin - Simandhar Student",
+                "span":"Interview"
+            }
+        ]
+    },
+
+    "eaPage": {
+        "mainheading": "Our Enrolled Agent Testimonial Videos",
+        "videos": [
+            {
+                "id": 1,
+                "path": "https://www.youtube.com/embed/m9ooIMD7AhY"
+            },
+            {
+                "id": 2,
+                "path": "https://www.youtube.com/embed/q-kDdm-Oc6g"
+            },
+            {
+                "id": 3,
+                "path": "https://www.youtube.com/embed/xswj0ntMdTY"
+            }
+        ],
+        "tabs": [
+            {
+                "id": 1,
+                "path": "/img/ea_video_thumb01.webp",
+                "heading":"How Vijay passed EA in three months from Simandhar and got placed in EY",
+                "span":""
+            },
+            {
+                "id": 2,
+                "path": "/img/ea_video_thumb02.webp",
+                "heading":"Enrolled Agent (EA) Course Elgibility Exam Fees Salary in India",
+                "span":""
+            },
+            {
+                "id": 3,
+                "path": "/img/ea_video_thumb03.webp",
+                "heading":"How Peuli Passed Enrolled Agent Exam| EA Course Details",
+                "span":""
+            }
+        ]
+    },
+    "testimonialVideoPage": {
+        "mainheading": "From the Students Who Made It Big testimonialVideoPage",
+        "videos": [
+            {
+                "id": 1,
+                "path": "https://www.youtube.com/embed/G5UTAcstmCI"
+            },
+            {
+                "id": 2,
+                "path": "https://www.youtube.com/embed/3rEAl2T7M98"
+            },
+            {
+                "id": 3,
+                "path": "https://www.youtube.com/embed/lf0ohX8r2w0"
+            }
+        ],
+        "tabs": [
+            {
+                "id": 1,
+                "path": "/img/video_thumb01.png",
+                "heading":"CA final to CPA| Cleared CPA exam in 8.5 months | Supriya | Simandhar CPA alumni",
+                "span":"Placed at EY (above 9 LPA package)"
+            },
+            {
+                "id": 2,
+                "path": "/img/video_thumb02.jpg",
+                "heading":"Bcom to US CMA & US CPA| Mani Venkat- Simandhar Alumni| Placed at EY",
+                "span":"Interview"
+            },
+            {
+                "id": 3,
+                "path": "/img/video_thumb03.jpg",
+                "heading":"How I scored 94 in REG | CPA USA 2019 | Sherin - Simandhar Student",
+                "span":"Interview"
+            }
+        ]
+    }
+}

@@ -1,0 +1,95 @@
+{
+    "cpaPage":{
+        "mainheading":"US CPA Home",
+        "lists":[
+            {
+                "path":"/CPA/News",
+                "title":"Breaking-news"
+            },
+            {
+                "path":"/CPA/canada",
+                "title":"Canada"
+            },
+            {
+                "path":"/saamarth",
+                "title":" Simandhar Saamarth"
+            },
+            {
+                "path":"/CPA/ourCourse",
+                "title":"Bridge Courses"
+            },
+            
+            {
+                "path":"/CPA/watt-sells-award-winners",
+                "title":"Elijah Watt Sells Award"
+            },
+            {
+                "path":"/CPA/cpaFees",
+                "title":"Fees"
+            },
+            {
+                "path":"/CPA/basicsOfAccounting",
+                "title":"Basics of Accounting"
+            },
+            {
+                "path":"/CPA",
+                "title":"Alumni"
+            },
+          
+            {
+                "path":"/CPA",
+                "title":"Blog"
+            },
+            {
+                "path":"/CPA",
+                "title":"Jobs"
+            },
+            {
+                "path":"/CPA",
+                "title":"Faculty"
+            }
+        ]   
+    },
+    "cmaPage":{
+        "mainheading":"US CMA Home",
+        "lists":[
+            {
+                "path":"",
+                "title":"Course Review"
+            },
+            {
+                "path":"",
+                "title":"Our Courses"
+            },
+            {
+                "path":"",
+                "title":"Syllabus"
+            },
+            {
+                "path":"",
+                "title":"Fees"
+            },
+            {
+                "path":"",
+                "title":"News"
+            },
+            {
+                "path":"",
+                "title":"Alumni"
+            },
+            {
+                "path":"",
+                "title":"Blog"
+            },
+            {
+                "path":"",
+                "title":"Jobs"
+            },
+            {
+                "path":"",
+                "title":"Faculty"
+            }
+        ]      
+    }
+
+}

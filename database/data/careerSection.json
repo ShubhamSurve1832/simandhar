@@ -1,0 +1,28 @@
+{
+    "cpaPage": {
+        "mainheading":"Career Opportunities After CPA in India",
+        "opportunities": [
+            {
+                "id": 1,
+                "title": "Super Accountants",
+                "caption": "CPAs are Super Accountants, those who have mastered their craft of Accounting, auditing, taxation and other areas of Accounting"
+            },
+            {
+                "id": 2,
+                "title": "International Credibility",
+                "caption": "CPAs enjoy internationally recognition for their expertise and high standards."
+            },
+            {
+                "id": 3,
+                "title": "Mandatory for High Profile Roles",
+                "caption": "The CPA designation is mandatory for many high-profile roles such as Vice President, President, Head, CXO’s etc."
+            },
+            {
+                "id": 4,
+                "title": "Better pay scale",
+                "caption": "Better pay scale: Average salary of a beginner CPA in India is about INR 7,00,000 per annum."
+            }
+        ],
+        "para":"Simandhar Education has various corporate tie-ups and elite industry relations that we leverage to place our clients in the top accounting firms round the year."
+    }
+}

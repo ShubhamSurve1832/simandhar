@@ -1,0 +1,75 @@
+{
+    "cpaPage": {
+        "mainHeading": "CPA Journey. Simplified!",
+        "journey": [
+            {
+                "id": 1,
+                "number": 1,
+                "img": "/img/cpa/jour_01.svg",
+                "title": "Academic Evaluation",
+                "descriptions": ["Meeting the educational requirements"]
+            },
+            {
+                "id": 2,
+                "number": 2,
+                "img": "/img/cpa/jour_02.svg",
+                "title": "Apply for CPA Exam",
+                "descriptions": ["Submit your application"]
+            },
+            {
+                "id": 3,
+                "number": 3,
+                "img": "/img/cpa/jour_03.svg",
+                "title": "Study for the exam",
+                "descriptions": ["Study with Simandhar & Becker"]
+            },
+            {
+                "id": 4,
+                "number": 4,
+                "img": "/img/cpa/jour_04.svg",
+                "title": "Schedule the exam",
+                "descriptions": ["Schedule exam with Prometric"]
+            },
+            {
+                "id": 5,
+                "number": 5,
+                "img": "/img/cpa/jour_05.svg",
+                "title": "Succeed",
+                "descriptions":["Take the exam, including the ethics exam","Obtain work experience", "Apply for licensure"]
+            }
+        ]
+    },
+    "canadaPage": {
+        "mainHeading": "How to obtain the Canada CPA designation?",
+        "journey": [
+            {
+                "id": 1,
+                "number": 1,
+                "img": "/img/cpa/jour_01.svg",
+                "title": "",
+                "descriptions": ["Confirm that you are a U.S. CPA"]
+            },
+            {
+                "id": 2,
+                "number": 2,
+                "img": "/img/cpa/jour_02.svg",
+                "title": "",
+                "descriptions": ["List all the relevant experiences"]
+            },
+            {
+                "id": 3,
+                "number": 3,
+                "img": "/img/cpa/jour_03.svg",
+                "title": "",
+                "descriptions": ["Submit the required documents"]
+            },
+            {
+                "id": 4,
+                "number": 4,
+                "img": "/img/cpa/jour_04.svg",
+                "title": "",
+                "descriptions": ["Obtain Canadian CPA credentials"]
+            }
+        ]
+    }
+}

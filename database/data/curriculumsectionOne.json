@@ -1,0 +1,526 @@
+{
+    "cmaPage": {
+        "tab_button": [
+            {
+                "id": 1,
+                "name": "Eligibility"
+            },
+            {
+                "id": 2,
+                "name": "CMA Exam Pattern"
+            },
+            {
+                "id": 3,
+                "name": "Becker Features"
+            },
+            {
+                "id": 4,
+                "name": "Programme Highlights"
+            },
+            {
+                "id": 5,
+                "name": "Course Duration"
+            }
+        ],
+        "tab_lists": [
+            {
+                "id": 1,
+                "tab_list": [
+                    {
+                        "id": 1,
+                      
+                        "txt": " The US CMA Exams are administered by IMA, the world’s largest management accounting body. IMA offers membership to all the aspirants who successfully clear 2 CMA exams."
+                    },
+                    {
+                        "id": 2,
+                    
+                        "txt": "12th in India (Associate degree outside India) is required to appear for the US CMA exams."
+                    },
+                    {
+                        "id": 3,
+                    
+                        "txt": "Graduation is required to be eligible for a CMA credential."
+                    },
+                    {
+                        "id": 4,
+                    
+                        "txt": "Aspirants pursuing Graduation are also eligible for US CMA Credential."
+                    }   
+                ]
+            },
+            {
+                "id": 2,
+                "tab_list": [
+                    {
+                        "id": 1,
+                      
+                        "txt": "The US CMA examination pattern consists of multiple-choice questions (MCQs) as well as essay-type questions."
+                    },
+                    {
+                        "id": 2,
+                    
+                        "txt": "Part 1 and Part 2 are four-hour tests containing about 100 MCQs and two essay questions.    "
+                    },
+                    {
+                        "id": 3,
+                        "txt": "75% of the examination consists of MCQs (multiple choice questions)."
+                    },
+                    {
+                        "id": 4,
+                        "txt": "25% of the examination consists of essay questions."
+                    },
+                    {
+                        "id": 5,
+                        "txt": "The US CMA exams are graded for 500 points, and an aspirant must score a minimum of 360 to qualify for the exams. Both parts follow the same pattern."
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "tab_list": [
+                    {
+                        "id": 1,
+                      
+                        "txt": "2000+ Practice Questions"
+                    },
+                    {
+                        "id": 2,                    
+                        "txt": "Video/Audio Lectures"
+                    },
+                    {
+                        "id": 3,                    
+                        "txt": "Mock Tests"
+                    },
+                    {
+                        "id": 4,                    
+                        "txt": "Personal Counselling"
+                    },
+                    {
+                        "id": 5,                    
+                        "txt": "Technical Support"
+                    },
+                    {
+                        "id": 6,                    
+                        "txt": "CMA Exam study tips"
+                    },
+                    {
+                        "id": 7,                    
+                        "txt": "Career Guidance"
+                    },
+                    {
+                        "id": 8,                    
+                        "txt": "1000+ Sample Essay Questions"
+                    },
+                    {
+                        "id": 9,                    
+                        "txt": "14-day Free Trial"
+                    },
+                    {
+                        "id": 10,                    
+                        "txt": "24 months Access Time-limit"
+                    },
+                    {
+                        "id": 11,                    
+                        "txt": "1000+ Sample Multiple Choice Questions"
+                    },
+                    {
+                        "id": 12,                    
+                        "txt": "CMA Quiz Assessments"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "tab_list": [
+                    {
+                        "id": 1,
+                       
+                        "txt": "150 Hours of Live Online Classes covering all topics."
+                    },
+                    {
+                        "id": 2,
+                        
+                        "txt": " 2000+ question Bank chapter wise to gauge your performance on a weekly basis"
+                    },
+                    {
+                        "id": 3,
+                       
+                        "txt": " Career Services"
+                    },
+                    {
+                        "id": 4,
+                    
+                        "txt": " Access to mock exams"
+                    },
+                    {
+                        "id": 5,
+                    
+                        "txt": "Scholarships for students ( Pursuing CMA alongside University degree)"
+                    },
+                    {
+                        "id": 6,
+                    
+                        "txt": "Online exam simulation closely resembles the actual exam allowing the candidate to get equipped to the exam format. Mock exams to give hands-on experience with CMA certification."
+                    },
+                    {
+                        "id": 7,
+                    
+                        "txt": " IMA curriculum provided by Becker Professional Education"
+                    },
+                    {
+                        "id": 8,
+                    
+                        "txt": "Access to materials and recordings"
+                    },
+                    {
+                        "id": 9,
+                    
+                        "txt": "Access to Exclusive Videos with over 150 hours of Recordings spanning overall topics."
+                    },
+                    {
+                        "id": 10,
+                    
+                        "txt": "Dedicated discussion forums"
+                    },
+                    {
+                        "id": 11,
+                    
+                        "txt": " After Course Engagement (ACE)"
+                    },
+                    {
+                        "id": 12,
+                    
+                        "txt": " Topic Wise study material in the form of Presentation and Case Studies. Quiz/Assignment with detailed answers and explanation"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "tab_list": [
+                    {
+                        "id": 1,
+                      
+                        "txt": "Depending on the aspirant’s plan and study schedule, the US CMA certificate can be completed in a minimum of 6 months to 3 years. As per the guidelines of IMA, an aspirant must complete the exams within 3 years from the date of registration."
+                    }
+                ]
+            }
+        ]
+    },
+    "ciaPage": {
+        "tab_button": [
+            {
+                "id": 1,
+                "name": "Eligibility"
+            },
+            {
+                "id": 2,
+                "name": "Role of CIA"
+            },
+            {
+                "id": 3,
+                "name": "What Will You Learn"
+            }
+        ],
+        "tab_lists": [
+            {
+                "id": 1,
+                "tab_list": [
+                    {
+                        "id": 1,
+                      
+                        "txt": " Master's degree (or equivalent)"
+                    },
+                    {
+                        "id": 2,
+                    
+                        "txt": "Bachelor's degree (or equivalent)"
+                    },
+                    {
+                        "id": 3,
+                    
+                        "txt": "Associate degree, three A-level certificates with a grade of C or higher, (or equivalent)"
+                    },
+                    {
+                        "id": 4,
+                    
+                        "txt": "12 months of internal audit experience or equivalent"
+                    }  ,
+                    {
+                        "id": 5,
+                    
+                        "txt": "24 months of internal audit experience or equivalent"
+                    }  ,
+                    {
+                        "id": 6,
+                    
+                        "txt": "60 months of internal audit experience or equivalent"
+                    }   
+                ]
+            },
+            {
+                "id": 2,
+                "tab_list": [
+                    {
+                        "id": 1,
+                      
+                        "txt": " Move from Traditional based audit to more analytical and technology-based audit making internal auditor function go up substantially."
+                    },
+                    {
+                        "id": 2,
+                    
+                        "txt": "Internal auditors are expected to provide recommendations for improvement in areas where deficiencies are identified."
+                    },
+                    {
+                        "id": 3,
+                    
+                        "txt": "Rising demand for investigations and process improvements."
+                    },
+                    {
+                        "id": 4,
+                    
+                        "txt": "Critical role in protecting the organisation value and business partnering."
+                    } 
+                ]
+            },
+            {
+                "id": 3,
+                "tab_list": [
+                    {
+                        "id": 1,
+                      
+                        "txt": "Foundations of Internal Auditing, Governance and Risk Management"
+                    },
+                    {
+                        "id": 2,                    
+                        "txt": "Proficiency and Due Professional Care and Fraud Risks"
+                    },
+                    {
+                        "id": 3,                    
+                        "txt": "Managing the Internal Audit Activity and Planning the Engagement"
+                    },
+                    {
+                        "id": 4,                    
+                        "txt": "Performing and Communicating Engagement, Monitoring Progress"
+                    },
+                    {
+                        "id": 5,                    
+                        "txt": "Business Acumen and Information Security"
+                    },
+                    {
+                        "id": 6,                    
+                        "txt": "Information Technology and Financial Management"
+                    }
+                ]
+            }
+        ]
+    },
+    "ifrsPage": {
+        "tab_button": [
+            {
+                "id": 1,
+                "name": "Eligibility"
+            },
+            {
+                "id": 2,
+                "name": "Certificate"
+            },
+            {
+                "id": 3,
+                "name": "Assessment"
+            },
+            {
+                "id": 4,
+                "name": "Course Fee"
+            },
+            {
+                "id": 5,
+                "name": "Completion"
+            }
+        ],
+        "para":"If you are a professional accountant or auditor who works in a practice or business, and are qualified according to national accounting standards, then you are eligible to take this ACCA financial reporting qualification.If you are a working professional, but not yet qualified, then you may still be eligible. You will need to prove that you have one of the following:",
+
+        "tab_lists": [
+            {
+                "id": 1,
+                "para":"If you are a professional accountant or auditor who works in a practice or business, and are qualified according to national accounting standards, then you are eligible to take this ACCA financial reporting qualification.If you are a working professional, but not yet qualified, then you may still be eligible. You will need to prove that you have one of the following:",
+                "tab_list": [
+                    {
+                        "id": 1,
+                      
+                        "txt": " Three years of relevant accounting experience (duly filled, signed and stamped ACCA experience form by the employer)"
+                    },
+                    {
+                        "id": 2,
+                    
+                        "txt": "A relevant degree, with two years’ of work experience"
+                    },
+                    {
+                        "id": 3,
+                    
+                        "txt": "An ACCA certificate in International Financial Reporting, in addition to two- years’ of work experience"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "para":"jhbasdiuljiwqoiaml",
+                "tab_list": [
+                    {
+                        "id": 1,
+                      
+                        "txt": "The US CMA examination pattern consists of multiple-choice questions (MCQs) as well as essay-type questions."
+                    },
+                    {
+                        "id": 2,
+                    
+                        "txt": "Part 1 and Part 2 are four-hour tests containing about 100 MCQs and two essay questions.    "
+                    },
+                    {
+                        "id": 3,
+                        "txt": "75% of the examination consists of MCQs (multiple choice questions)."
+                    },
+                    {
+                        "id": 4,
+                        "txt": "25% of the examination consists of essay questions."
+                    },
+                    {
+                        "id": 5,
+                        "txt": "The US CMA exams are graded for 500 points, and an aspirant must score a minimum of 360 to qualify for the exams. Both parts follow the same pattern."
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "para":"",
+                "tab_list": [
+                    {
+                        "id": 1,
+                      
+                        "txt": "2000+ Practice Questions"
+                    },
+                    {
+                        "id": 2,                    
+                        "txt": "Video/Audio Lectures"
+                    },
+                    {
+                        "id": 3,                    
+                        "txt": "Mock Tests"
+                    },
+                    {
+                        "id": 4,                    
+                        "txt": "Personal Counselling"
+                    },
+                    {
+                        "id": 5,                    
+                        "txt": "Technical Support"
+                    },
+                    {
+                        "id": 6,                    
+                        "txt": "CMA Exam study tips"
+                    },
+                    {
+                        "id": 7,                    
+                        "txt": "Career Guidance"
+                    },
+                    {
+                        "id": 8,                    
+                        "txt": "1000+ Sample Essay Questions"
+                    },
+                    {
+                        "id": 9,                    
+                        "txt": "14-day Free Trial"
+                    },
+                    {
+                        "id": 10,                    
+                        "txt": "24 months Access Time-limit"
+                    },
+                    {
+                        "id": 11,                    
+                        "txt": "1000+ Sample Multiple Choice Questions"
+                    },
+                    {
+                        "id": 12,                    
+                        "txt": "CMA Quiz Assessments"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "para":"",
+                "tab_list": [
+                    {
+                        "id": 1,
+                       
+                        "txt": "150 Hours of Live Online Classes covering all topics."
+                    },
+                    {
+                        "id": 2,
+                        
+                        "txt": " 2000+ question Bank chapter wise to gauge your performance on a weekly basis"
+                    },
+                    {
+                        "id": 3,
+                       
+                        "txt": " Career Services"
+                    },
+                    {
+                        "id": 4,
+                    
+                        "txt": " Access to mock exams"
+                    },
+                    {
+                        "id": 5,
+                    
+                        "txt": "Scholarships for students ( Pursuing CMA alongside University degree)"
+                    },
+                    {
+                        "id": 6,
+                    
+                        "txt": "Online exam simulation closely resembles the actual exam allowing the candidate to get equipped to the exam format. Mock exams to give hands-on experience with CMA certification."
+                    },
+                    {
+                        "id": 7,
+                    
+                        "txt": " IMA curriculum provided by Becker Professional Education"
+                    },
+                    {
+                        "id": 8,
+                    
+                        "txt": "Access to materials and recordings"
+                    },
+                    {
+                        "id": 9,
+                    
+                        "txt": "Access to Exclusive Videos with over 150 hours of Recordings spanning overall topics."
+                    },
+                    {
+                        "id": 10,
+                    
+                        "txt": "Dedicated discussion forums"
+                    },
+                    {
+                        "id": 11,
+                    
+                        "txt": " After Course Engagement (ACE)"
+                    },
+                    {
+                        "id": 12,
+                    
+                        "txt": " Topic Wise study material in the form of Presentation and Case Studies. Quiz/Assignment with detailed answers and explanation"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "para":"",
+                "tab_list": [
+                    {
+                        "id": 1,
+                      
+                        "txt": "Depending on the aspirant’s plan and study schedule, the US CMA certificate can be completed in a minimum of 6 months to 3 years. As per the guidelines of IMA, an aspirant must complete the exams within 3 years from the date of registration."
+                    }
+                ]
+            }
+        ]
+    }    
+}

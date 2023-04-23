@@ -1,0 +1,14 @@
+{
+    "ciaPage": {
+        "mainheading": "Meet our Trainer",
+        "para": [
+            {
+                "text": "Hi everybody! I am Sudha Murthy, and I will be your main instructor during the CIA training course. I have experience in Audit and Enterprise Risk Services of GAAP and IFRS based Financials, IFRS Convergence, and I am very passionate about this field. Register for the course and let's meet."
+            },
+            {
+                "text": "I believe in Constant updating of knowledge, Willingness to learn and explore new avenues, Out of the box thinking, and Helping people grow."
+            }
+        ],
+        "img": "/img/cpa/trainer.webp"
+    }
+}

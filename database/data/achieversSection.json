@@ -1,0 +1,352 @@
+{ "homePage": {
+    "mainHeading": "What our Achievers have to say",
+    "cta":"View All Testimonials",
+    "list": [
+        {
+            "id": 1,
+            "img": "/img/ashwiniNathan.jpg",
+            "para": "I'm thrilled to share that I have cleared all 4 parts of the US CPA examination. It's been a challenging journey and a lot of ups and downs from deciding to quit my job to studying full time and writing the exam. Looking back now, its been an extremely fruitful 8 months. The journey was not easy but big thanks to Sripal Jain (CA, CPA ) and his team at Simandhar Education for being available round the clock wether it be to clear a conceptual doubt or to answer exam process related questions. Your mentoring and proactive support and guidance has been key in keeping me motivated and believe that I can become a CPA.",
+            "btn": "Read More",
+            "title": "Ashwini Nathan",
+            "caption": "US CPA"
+        },
+        {
+            "id": 2,
+            "img": "/img/raghavPrassana.png",
+            "para": "Top-notch quality of student service. Truly a student development oriented organization. The placements and the value adds are impeccable. Great place! Wonderful staff! I definitely recommend!",
+            "btn": "Read More",
+            "title": "Raghav Prassanna",
+            "caption": "US CPA"
+        },
+        {
+            "id": 3,
+            "img": "/img/wasinMankad.png",
+            "para": "And here starts my journey to the US CPA. One down and 3 more subjects to go. Thank you Simandhar team for the exception support!",
+            "btn": "Read More",
+            "title": "Wasim Mankad",
+            "caption": "US CPA"
+        }
+    ]
+},
+    "cpaPage": {
+        "mainHeading": "What our Achievers have to say",
+        "list": [
+            {
+                "id": 1,
+                "img": "/img/ashwiniNathan.jpg",
+                "para": "I'm thrilled to share that I have cleared all 4 parts of the US CPA examination. It's been a challenging journey and a lot of ups and downs from deciding to quit my job to studying full time and.",
+                "btn": "Read More",
+                "title": "Ashwini Nathan",
+                "caption": "US CPA"
+            },
+            {
+                "id": 2,
+                "img": "/img/raghavPrassana.png",
+                "para": "Top-notch quality of student service. Truly a student development oriented organization. The placements and the value adds are impeccable. Great place! Wonderful staff! I definitely recommend!",
+                "btn": "Read More",
+                "title": "Raghav Prassanna",
+                "caption": "US CPA"
+            },
+            {
+                "id": 3,
+                "img": "/img/wasinMankad.png",
+                "para": "And here starts my journey to the US CPA. One down and 3 more subjects to go. Thank you Simandhar team for the exception support!",
+                "btn": "Read More",
+                "title": "Wasim Mankad",
+                "caption": "US CPA"
+            }
+        ]
+    },
+    "cmaPage": {
+        "mainHeading": "What our Achievers have to say",
+        "cta":"View All Testimonials",
+        "list": [
+            {
+                "id": 1,
+                "img": "/img/TruptiAgarwal.webp",
+                "title": "Ashwini Nathan",
+                "caption": "US CMA"
+            },
+            {
+                "id": 2,
+                "img": "/img/Satyamjain.webp",
+                "title": "Ashwini Nathan",
+                "caption": "US CMA"
+            },
+            {
+                "id": 3,
+                "img": "/img/AlithiHarita.webp",
+                "title": "Ashwini Nathan",
+                "caption": "US CMA"
+            }
+        ]
+    },
+    "eaPage": {
+        "mainHeading": "EA Alumni and Testimonials",
+        "list": [
+            {
+                "id": 1,
+                "img": "/img/pankhuriNathani.webp",
+                "title": "Pankhuri Nathani",
+                "caption": "EA"
+            },
+            {
+                "id": 2,
+                "img": "/img/peuliDeyMohari.webp",
+                "title": "Peuli Dey Mohari",
+                "caption": "EA"
+            },
+            {
+                "id": 3,
+                "img": "/img/vijaykumar.webp",
+                "title": "Vijay kumar",
+                "caption": "EA"
+            }
+        ]
+    },
+    "daPage": {
+        "mainHeading": "Meet Our Instructors",
+        "description":"We have a network of leading instructors, who are keen & have successfully helped students and Corporates grow their Career in their respective fields",
+        "list": [
+            {
+                "id": 1,
+                "img": "/img/sripalJain.webp",
+                "para": "Sripal Jain is the Co-Founder of Simandhar Education LLP. He is Awarded Best Edupreneur of Telangana State - 2018 holds a Chartered Accountant and CPA (USA) qualified. He is a Visiting faculty at GITAM, C TARA...",
+                "btn": "Read More",
+                "title": "Sripal Jain",
+                "caption": "CA, CPA, CGMA",
+                "position":"Co-Founder & Lead Instructor, Simandhar Education",
+                "company":"Guest Faculty, IIM"
+            },
+            {
+                "id": 2,
+                "img": "/img/sabitraPanda.webp",
+                "para": "About 15+ years of experience in the field of analytics. A data leader in the field of Data Science (AI/ML), Analytics and Business Intelligence.Successfully trained (Live Training) more than 400 students, globally, in the field of...",
+                "btn": "Read More",
+                "title": "Sabitra Panda",
+                "caption": "MBA, IIM, Indore",
+                "position":"Co-Founder and Chief Data Scientist",
+                "company":"ByteIQ Analytics"
+            },
+            {
+                "id": 3,
+                "img": "/img/anandKakarla.webp",
+                "para": "Anand is a performance-driven professional with 20 years of experience in Global Sales & Business Development, Global Audits and Advisory, Global Outsourcing & Offshoring, International Payroll, Taxation, Process improvement...",
+                "btn": "Read More",
+                "title": "Anand Kakarla",
+                "caption": "CA, Global Practice Leader",
+                "position":"OneSource Consulting, LLC",
+                "company":""
+            }
+        ]
+    },
+    "ifrsPage": {
+        "mainHeading": "Checkout out our attendees testimonials",
+        "list": [
+            {
+                "id": 1,
+                "img": "/img/ArunAchuthan.png",
+                "para": "Attended the training sessions conducted by Simandhar Education on diploma in IFRS. Good coverage on the topics covered and recommending all to attend the training sessions.",
+                "title": "Arun Achuthan"
+            },
+            {
+                "id": 2,
+                "img": "/img/NagaMadhuriKurmar.png",
+                "para": "Happy to have completed the IFRS Certification program from Association of International Certified Professional Accountants. Thanks Simandhar Education and Sripal Jain (CA, CPA) for your support.",
+                "title": "Naga Madhuri Kurma"
+            },
+            {
+                "id": 3,
+                "img": "/img/HarreChauhaan.png",
+                "para": "Thanks to BDO Simandhar Education Jaswanth John Sripal Jain (CA, CPA) for the excellent trainings & continuous support!",
+                "title": "Harre Chauhaan"
+            }
+        ]
+    },
+    "testimonialPage": {
+        "mainHeading": "US CPA (Certified Public Accountant) License",
+        "list": [
+            {
+                "id": 1,
+                "img": "/img/pankhuriNathani.webp",
+                "title": "Arun Kannan",
+                "caption": "Congratulations on your US CPA license"
+            },
+            {
+                "id": 2,
+                "img": "/img/peuliDeyMohari.webp",
+                "title": "Garima Handa",
+                "caption": "Congratulations on your US CPA license"
+            },
+            {
+                "id": 3,
+                "img": "/img/vijaykumar.webp",
+                "title": "Ritika Gupta",
+                "caption": "Congratulations on your US CPA license"
+            },
+            {
+                "id": 4,
+                "img": "/img/vijaykumar.webp",
+                "title": "Riddhi Karbhari",
+                "caption": "Congratulations on your US CPA license"
+            },
+            {
+                "id": 5,
+                "img": "/img/vijaykumar.webp",
+                "title": "Padmashri Bindhumadhavan",
+                "caption": "Congratulations on your US CPA license"
+            },
+            {
+                "id": 6,
+                "img": "/img/vijaykumar.webp",
+                "title": "Jitendra Agarwala",
+                "caption": "Congratulations on your US CPA license"
+            },
+            {
+                "id": 7,
+                "img": "/img/vijaykumar.webp",
+                "title": "Laxmikant Karanjkar",
+                "caption": "Congratulations on your US CPA license"
+            },
+            {
+                "id": 8,
+                "img": "/img/vijaykumar.webp",
+                "title": "Ankit Singh",
+                "caption": "Congratulations on your US CPA license"
+            },
+            {
+                "id": 9,
+                "img": "/img/vijaykumar.webp",
+                "title": "Gaurav Kapahi",
+                "caption": "Congratulations on your US CPA license"
+            }
+        ]
+    },
+    "testimonialOnePage": {
+        "mainHeading": "What our Achievers have to say",
+        "cta":"View More",
+        "list": [
+            {
+                "id": 1,
+                "img": "/img/ashwiniNathan.jpg",
+                "para": "I'm thrilled to share that I have cleared all 4 parts of the US CPA examination. It's been a challenging journey and a lot of ups and downs from deciding to quit my job to studying full time and writing the exam. Looking back now, its been an extremely fruitful 8 months. The journey was not easy but big thanks to Sripal Jain (CA, CPA ) and his team at Simandhar Education for being available round the clock wether it be to clear a conceptual doubt or to answer exam process related questions. Your mentoring and proactive support and guidance has been key in keeping me motivated and believe that I can become a CPA.",
+                "btn": "Read More",
+                "title": "Ashwini Nathan",
+                "caption": "US CPA"
+            },
+            {
+                "id": 2,
+                "img": "/img/raghavPrassana.png",
+                "para": "I’m now a CPA! I was looking for a professional course that will help me refresh my skills and make me rounded professional. Just as I was about to complete a decade working in financial accounting roles, I decided to challenge myself with CPA. It wasn’t easy slipping back to student life, giving up all the comforts and also managing a demanding work schedule. But, what’s life without challenges?              A big shout out to Sripal Jain (CA, CPA ) and the hard working team at  Simandhar Education for all the support and inputs.   ",
+                "title": "Kiran Hegde",
+                "caption": "US CPA"
+            },
+            {
+                "id": 3,
+                "img": "/img/wasinMankad.png",
+                "para": " Been pretty excited waiting to type this; after a little over nine months of studying, I'm thrilled to share that I've cleared all four parts of the US CPA examinations. It's been a challenging journey and it couldn't have been possible without my Mom who's been my pillar of strength, through thick and thin. A huge thank you to my friends and colleagues at Deloitte for all the support and encouragement, that made the journey a lot smoother. As always, I'm very grateful to Sripal Jain and the team at Simandhar Education for all the guidance and the valuable inputs in the form of high-quality lectures and very useful notes.",
+                "btn": "Read More",
+                "title": "Sumeet Raj",
+                "caption": "US CPA"
+            },
+            {
+                "id": 4,
+                "img": "/img/wasinMankad.png",
+                "para": "So finally I got the news today that I have cleared #cpa with an average score of 94 (FAR 98, BEC 96, REG 94, AUD 88). Although I missed #wattssellsaward by a whisker (it required > 95.5) but I am really happy to finally be on the other side. As always, a big shoutout to Sripal who gave me the idea in the first place and helped me in all the steps and academics through , which follows a holistic approach to the course and beyond.",
+                "btn": "Read More",
+                "title": "Akshay Jaiswal",
+                "caption": "US CPA"
+            },
+            {
+                "id": 5,
+                "img": "/img/wasinMankad.png",
+                "para": "I passed US CPA - Thank you Simandhar Education , Sripal and my family !!  Happy to share that I have cleared all four sections of US CPA. I would like to thank my family for supporting me throughout the journey while working full time. A big thanks to Sripal and Team Simandhar Education for their continuous support in all the steps. Sripal was always available whenever need guidance and to solve queries as fast as he can.   Thanks to the instructors at Becker professional education.",
+                "btn": "Read More",
+                "title": "Parin Shah",
+                "caption": "US CPA"
+            },
+            {
+                "id": 6,
+                "img": "/img/wasinMankad.png",
+                "para": "And here starts my journey to the US CPA. One down and 3 more subjects to go. Thank you Simandhar team for the exception support!",
+                "btn": "Read More",
+                "title": "Wasim Mankad",
+                "caption": "US CPA"
+            },
+            {
+                "id": 7,
+                "img": "/img/wasinMankad.png",
+                "para": "I am so incredibly excited to announce that I have officially passed all the 4 sections of the US CPA Exam on the first attempt! It’s been a long year but it was definitely worth it. I am so grateful for all the help and guidance from Becker Professional Education for their amazing product that helped me in the study process, Simandhar Education and its team for the support and supplementary resources that works hand in hand with Becker and also in the evaluation process and to Sripal Jain (CA, CPA) for constant motivation and guidance. Reminder to those who are on their way to this journey: These three letters are waiting for you at the finish line! Keep grinding, and Good Luck!",
+                "btn": "Read More",
+                "title": "Priya Gupta",
+                "caption": "US CPA"
+            },
+            {
+                "id": 8,
+                "img": "/img/wasinMankad.png",
+                "para": " An ‘end to end package’ is the phrase that comes to mind when I think about Simandhar Education. I joined Simandhar Education in 2019 for US CPA certification. Sripal and his team are really  dedicated  and are always willing to go above and beyond what is required for their students. I really appreciate their efforts for helping me in furthering my public accounting career. It’s without hesitation that I recommend Simandhar education if you are looking for the best institute to pursue US CPA.",
+                "btn": "Read More",
+                "title": "Anju Narayanan Nampoothiry",
+                "caption": "US CPA"
+            },
+            {
+                "id": 9,
+                "img": "/img/wasinMankad.png",
+                "para": " My Go-to place for all things related to CPA. Thanks to Sripal and team for giving me the right reference and advice in my career!",
+                "btn": "Read More",
+                "title": "Kevin Modi",
+                "caption": "US CPA"
+            },
+            {
+                "id": 10,
+                "img": "/img/wasinMankad.png",
+                "para": " Working for a US company is a big dream for me, Sripal Jain (CA, CPA) with his Simandhar Education made it a 'Dream come true' moment for me within Just one Week of joining with them for CPA, by placing me Into a US Company's branch in India, as an INTERN for one of the Busiest seasons from Jan - Apr. The team here really takes care of Students' progress right from Application process till Placements there is a Family Bonding like the relationship with Simandhar Education, which we can't expect anywhere. Huge Shoutout to Sripal Jain and his team for their continuous support towards us 😊❤️",
+                "btn": "Read More",
+                "title": "Teja Surya",
+                "caption": "US CPA"
+            },
+            {
+                "id": 11,
+                "img": "/img/wasinMankad.png",
+                "para": "When I started the preparation for US CPA, Along with the theoretical knowledge, I also wanted to equip myself with the real-world experience of US taxation and US GAAP. And when Sripal Jain (CA, CPA) shared the vacancies in one of the topmost US CPA firms, I immediately applied and guess what, I got hired for the upcoming tax season. I appreciate the efforts made by Sripal Jain (CA, CPA) and the whole Simandhar Education team for helping students not only in academics but also in career placements.",
+                "btn": "Read More",
+                "title": "Nitin Goyal",
+                "caption": "US CPA"
+            },
+            {
+                "id": 12,
+                "img": "/img/wasinMankad.png",
+                "para": "Top-notch quality of student service. Truly a student development oriented organization. The placements and the value adds are impeccable. Great place! Wonderful staff! I definitely recommend!",
+                "btn": "Read More",
+                "title": "Raghav Prassanna",
+                "caption": "US CPA"
+            }
+        ]
+    },
+    "placementAlumnis": {
+        "mainheading": "Simandhar Recent US CPA and US CMA Placements",
+        "list": [
+            {
+                "img": "/img/anjuNamapoothiry.webp",
+                "logo":"/img/anjuNamapoothiry.webp",
+                "name": "Anoushka Baghla",
+                "course": "US CPA License",
+                "place": "View CPA License"
+            },
+            {
+                "img": "/img/anjuNamapoothiry.webp",
+                "logo":"/img/anjuNamapoothiry.webp",
+                "name": "Shrikesh Lahoti",
+                "course": "US CPA, Deloitte, Mumbai",
+                "place": "View All Placements"
+            },
+            {
+                "img": "/img/anjuNamapoothiry.webp",
+                "logo":"/img/anjuNamapoothiry.webp",
+                "name": "Dhruv Patel",
+                "course": "FAR-98 - BEC-98 - REG-91 - AUD-97",
+                "place": "View All Toppers"
+            }
+        ]
+    }
+}

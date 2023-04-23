@@ -1,0 +1,374 @@
+{
+    "cpaPage": {
+        "mainheading": "How Simandhar Education helps you to be US CPA ready",
+        "helps": [
+            {
+                "id": 1,
+                "img": "/img/cpa/help_icon01.webp",
+                "caption": "Consulting Services"
+            },
+            {
+                "id": 2,
+                "img": "/img/cpa/help_icon02.webp",
+                "caption": "End to End Evaluation Assistance"
+            },
+            {
+                "id": 3,
+                "img": "/img/cpa/help_icon03.webp",
+                "caption": "Last Minute Revision"
+            },
+            {
+                "id": 4,
+                "img": "/img/cpa/help_icon04.webp",
+                "caption": "AI Mocks"
+            },
+            {
+                "id": 5,
+                "img": "/img/cpa/help_icon05.webp",
+                "caption": "Live Interactive Classes"
+            },
+            {
+                "id": 6,
+                "img": "/img/cpa/help_icon06.webp",
+                "caption": "Customer First Approach"
+            },
+            {
+                "id": 7,
+                "img": "/img/cpa/help_icon07.webp",
+                "caption": "Course Training"
+            },
+            {
+                "id": 8,
+                "img": "/img/cpa/help_icon08.webp",
+                "caption": "Professional Training"
+            }
+        ]
+    },
+    "cmaPage": {
+        "mainheading": "Career Opportunities After CMA",
+        "helps": [
+            {
+                "id": 1,
+                "img": "/img/cpa/help_icon01.webp",
+                "caption": "Consulting Services"
+            },
+            {
+                "id": 2,
+                "img": "/img/cpa/help_icon02.webp",
+                "caption": "E-commerce"
+            },
+            {
+                "id": 3,
+                "img": "/img/cpa/help_icon03.webp",
+                "caption": "Financial Planning"
+            },
+            {
+                "id": 4,
+                "img": "/img/cpa/help_icon04.webp",
+                "caption": "Accounting"
+            },
+            {
+                "id": 5,
+                "img": "/img/cpa/help_icon05.webp",
+                "caption": "Taxation"
+            },
+            {
+                "id": 6,
+                "img": "/img/cpa/help_icon06.webp",
+                "caption": "IT & ES"
+            },
+            {
+                "id": 7,
+                "img": "/img/cpa/help_icon07.webp",
+                "caption": "Non-Profit Organizations"
+            },
+            {
+                "id": 8,
+                "img": "/img/cpa/help_icon08.webp",
+                "caption": "Business Valuation & Many more"
+            }
+        ]
+    },
+    "cmaPageone": {
+        "mainheading": "How Simandhar Education helps you to be US CMA ready",
+        "helps": [
+            {
+                "id": 1,
+                "img": "/img/cpa/help_icon01.webp",
+                "caption": "Comprehensive Study Material "
+            },
+            {
+                "id": 2,
+                "img": "/img/cpa/help_icon05.webp",
+                "caption": "Live Interactive Classes"
+            },
+            {
+                "id": 3,
+                "img": "/img/cpa/help_icon03.webp",
+                "caption": "Last Minute Revision"
+            },
+            {
+                "id": 4,
+                "img": "/img/cpa/help_icon04.webp",
+                "caption": "AI Mocks"
+            },
+            {
+                "id": 5,
+                "img": "/img/cpa/help_icon06.webp",
+                "caption": "Customer First Approach"
+            },
+            {
+                "id": 6,
+                "img": "/img/cpa/help_icon07.webp",
+                "caption": "Course Training"
+            },
+            {
+                "id": 8,
+                "img": "/img/cpa/help_icon08.webp",
+                "caption": "Professional Training"
+            }
+        ]
+    },
+    "takeaWays": {
+        "mainheading": "Key Takeaways",
+        "description": "Co-Founder and Global Lead Instructor, Simandhar Education",
+        "helps": [
+            {
+                "id": 1,
+                "img": "/img/cpa/key_img1.webp",
+                "caption": "Live Interactive Classes"
+            },
+            {
+                "id": 2,
+                "img": "/img/cpa/key_img2.webp",
+                "caption": "Recorded Videos"
+            },
+            {
+                "id": 3,
+                "img": "/img/cpa/key_img3.webp",
+                "caption": "Placement Assistance Program"
+            },
+            {
+                "id": 4,
+                "img": "/img/cpa/key_img4.webp",
+                "caption": "Exam Registration Assistance"
+            },
+            {
+                "id": 5,
+                "img": "/img/cpa/key_img5.webp",
+                "caption": "Comprehensive Study Material"
+            },
+            {
+                "id": 6,
+                "img": "/img/cpa/key_img6.webp",
+                "caption": "Becker Online Test Bank"
+            }
+        ]
+    },
+    "ciaPage": {
+        "mainheading": "Key Takeaways",
+        "description": "Here we have enlisted the pivotal reasons of why one should pursue the Guidance for CIA certification ",
+        "helps": [
+            {
+                "id": 1,
+                "img": "/img/cpa/key_img1.webp",
+                "caption": "Live Interactive Classes"
+            },
+            {
+                "id": 2,
+                "img": "/img/cpa/key_img2.webp",
+                "caption": "Recorded Videos"
+            },
+            {
+                "id": 3,
+                "img": "/img/cpa/key_img3.webp",
+                "caption": "Placement Assistance Program"
+            },
+            {
+                "id": 4,
+                "img": "/img/cpa/key_img6.webp",
+                "caption": "Exam Registration Assistance"
+            },
+            {
+                "id": 5,
+                "img": "/img/cpa/key_img5.webp",
+                "caption": "Comprehensive Study Material "
+            }
+        ]
+    },
+    "ifrsPage": {
+        "mainheading": "Key Takeaways",
+        "description": "Here we have enlisted the pivotal reasons of why one should pursue the Guidance for CIA certification ",
+        "helps": [
+            {
+                "id": 1,
+                "img": "/img/cpa/key_img1.webp",
+                "caption": "Live Interactive Classes"
+            },
+            {
+                "id": 2,
+                "img": "/img/cpa/key_img2.webp",
+                "caption": "Recorded Videos"
+            },
+            {
+                "id": 3,
+                "img": "/img/cpa/key_img3.webp",
+                "caption": "Placement Assistance Program"
+            },
+            {
+                "id": 4,
+                "img": "/img/cpa/key_img6.webp",
+                "caption": "Exam Registration Assistance"
+            },
+            {
+                "id": 5,
+                "img": "/img/cpa/key_img5.webp",
+                "caption": "Comprehensive Study Material "
+            },
+            {
+                "id": 6,
+                "img": "/img/cpa/key_img4.webp",
+                "caption": "BDO supported Mock Tests "
+            }
+        ]
+    },
+    "saamarthPage": {
+        "mainheading": "What makes us Unique?",
+        "helps": [
+            {
+                "id": 1,
+                "img": "/img/cpa/key_img1.webp",
+                "caption": "8000+ Students"
+            },
+            {
+                "id": 2,
+                "img": "/img/cpa/key_img2.webp",
+                "caption": "200+ Placement Partners"
+            },
+            {
+                "id": 3,
+                "img": "/img/cpa/key_img3.webp",
+                "caption": "10+ Top Instructor"
+            },
+            {
+                "id": 4,
+                "img": "/img/cpa/key_img6.webp",
+                "caption": "100+ Corporate Events"
+            },
+            {
+                "id": 5,
+                "img": "/img/cpa/key_img5.webp",
+                "caption": "Comprehensive Study Material "
+            },
+            {
+                "id": 6,
+                "img": "/img/cpa/key_img4.webp",
+                "caption": "Live Interactive Classes  "
+            },
+            {
+                "id": 7,
+                "img": "/img/cpa/key_img4.webp",
+                "caption": "Recorded Videos  "
+            },
+            {
+                "id": 8,
+                "img": "/img/cpa/key_img4.webp",
+                "caption": "100% Placement Assistance  "
+            },
+            {
+                "id": 9,
+                "img": "/img/cpa/key_img4.webp",
+                "caption": "Free CPA Eligibility Check  "
+            },
+            {
+                "id": 10,
+                "img": "/img/cpa/key_img4.webp",
+                "caption": "End to End Licensing Support  "
+            },
+            {
+                "id": 11,
+                "img": "/img/cpa/key_img4.webp",
+                "caption": "CPA bridge course to meet the shortfall of credits"
+            },
+            {
+                "id": 12,
+                "img": "/img/cpa/key_img4.webp",
+                "caption": "Support & Counselling from Experts"
+            },
+            {
+                "id": 13,
+                "img": "/img/cpa/key_img4.webp",
+                "caption": "State-of-the-art Learning Management System"
+            }
+        ]
+    }  ,
+    "basicsOfAccounting": {       
+        "helps": [
+            {
+                "id": 1,
+                "img": "/img/cpa/saamarth_icon01.webp",
+                "caption": "8000+ Students"
+            },
+            {
+                "id": 2,
+                "img": "/img/cpa/saamarth_icon02.webp",
+                "caption": "200+ Placement Partners"
+            },
+            {
+                "id": 3,
+                "img": "/img/cpa/saamarth_icon03.webp",
+                "caption": "10+ Top Instructor"
+            },
+            {
+                "id": 4,
+                "img": "/img/cpa/saamarth_icon04.webp",
+                "caption": "100+ Corporate Events"
+            },
+            {
+                "id": 5,
+                "img": "/img/cpa/saamarth_icon05.webp",
+                "caption": "Comprehensive Study Material "
+            },
+            {
+                "id": 6,
+                "img": "/img/cpa/saamarth_icon06.webp",
+                "caption": "Live Interactive Classes  "
+            },
+            {
+                "id": 7,
+                "img": "/img/cpa/saamarth_icon07.webp",
+                "caption": "Recorded Videos  "
+            },
+            {
+                "id": 8,
+                "img": "/img/cpa/saamarth_icon08.webp",
+                "caption": "100% Placement Assistance  "
+            },
+            {
+                "id": 9,
+                "img": "/img/cpa/saamarth_icon09.webp",
+                "caption": "Free CPA Eligibility Check  "
+            },
+            {
+                "id": 10,
+                "img": "/img/cpa/saamarth_icon10.webp",
+                "caption": "End to End Licensing Support  "
+            },
+            {
+                "id": 11,
+                "img": "/img/cpa/saamarth_icon11.webp",
+                "caption": "CPA bridge course to meet the shortfall of credits"
+            },
+            {
+                "id": 12,
+                "img": "/img/cpa/saamarth_icon12.webp",
+                "caption": "Support & Counselling from Experts"
+            },
+            {
+                "id": 13,
+                "img": "/img/cpa/saamarth_icon13.webp",
+                "caption": "State-of-the-art Learning Management System"
+            }
+        ]
+    }   
+}
