@@ -1,0 +1,129 @@
+import { HiOutlineLocationMarker, HiOutlineMail } from 'react-icons/hi'
+import { BiPhoneCall } from 'react-icons/bi'
+import Link from 'next/link'
+import Image from 'next/image'
+import { useRouter } from 'next/router'
+import { useState,useRef } from 'react'
+import 'react-phone-number-input/style.css'
+import PhoneInput from 'react-phone-input-2'
+import 'react-phone-input-2/lib/style.css'
+import { useForm } from 'react-hook-form';
+
+// import app_store_1 from 'public/app_store_1.png'
+// import app_store_2 from 'public/app_store_2.png'
+
+export default function ContactUs() {
+    const { register, handleSubmit, formState: { errors }, reset } = useForm();
+    const router = useRouter()
+    const buttonRef = useRef()
+    const [values, setValues] = useState({
+        name: "",
+        email: "",
+        number: "",
+        course: "",
+    })
+
+    // const [name, email, number, course] = values;
+
+    const onFormSubmit = async (e) => {
+
+        try {
+            await fetch('/api/formData', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(values)
+            });
+            buttonRef.current.click()
+            router.push("/thankyou")
+        } catch (err) {
+            console.log(err)
+        }
+
+    }
+
+
+    return (
+        <><section className='container'>
+            <div className="contact_us">
+                <h2 className="heading02">Contact Us</h2>
+                <div className="form_box_black grid">
+                    <form method='post' class=" sec3-cnt1" id="inquire_now_2" name="inquire_now_2" >
+                        <div className="sec3-btns">
+                            <input type="text" id="name" name="name" placeholder="Enter Your Name" 
+                             {...register("name", {
+                                required: "Name is required",
+                                pattern: {
+                                  value: /^[a-zA-Z ]*$/,
+                                  message: "Enter letters only"
+                                },
+                                onChange: (e) => { setValues({ ...values, [e.target.name]: e.target.value }) },
+                              })}
+                              className={errors.name ? 'error-border' : null}  />
+                                {errors.name && <span className='error-message'>{errors.name?.message}</span>}
+                        </div>
+                        <div class="sec3-btns">
+                            <input type="text" id="email" name="email" placeholder="Enter Your Email Address" />
+                        </div>
+                        <div class="sec3-btns">
+                            <input type="text" id="phone" name="phone" placeholder="Enter your Mobile Number" />
+                        </div>
+                        <div className='sec3-btns custom-select'>
+                            <select id="select-course" >
+                                <option>Select Course</option>
+                                <option value="Course 1">US CPA</option>
+                                <option value="Course 2">US CMA</option>
+                                <option value="Course 3">EA</option>
+                                <option value="Course 4">CIA</option>
+                                <option value="Course 4">IFRS</option>
+                                <option value="Course 4">Data Analytics</option>
+                                <option value="Course 4">Simandhar Saamarth</option>
+                            </select>
+                        </div>
+                        <div className='register-btn'>
+                            <a className='btn  white-border-btn white-border-btn-arrow'>Submit</a>
+                        </div>
+                    </form>
+                    <div className='contact_right_box '>
+                        <div className='add_row'>
+                            <span></span>
+                            <h3 className='heading05 '>Headquarters</h3>
+                        </div>
+                        <div className='add_row'><span><i><HiOutlineLocationMarker /></i></span>
+                            <div><p className=''>Plot Number: 39/A Dr.Subba Rao Colony, Picket, Secunderabad, Telangana 500026</p></div>
+                        </div>
+                        <div className='add_row'><span><i><BiPhoneCall /></i></span>
+                            <div>
+                                <p className=''>Sales:<a href="tel:+91-7780273388">+91-7780273388</a></p>
+                                <p className=''>Support: <a href="tel:+91-8977633523">+91-8977633523</a></p>
+                                <p className=''>Evaluations: <a href="tel:+91-8045588550">+91-8045588550</a></p></div>
+                        </div>
+                        <div className='add_row'><span><i><HiOutlineMail /></i></span>
+                            <div><p className='' ><a href="mailto:info@simandhareducation.com">info@simandhareducation.com</a> </p></div>
+                        </div>
+                        <div className='location-box add_row'>
+                            <span></span>
+                            <Link href="/"> <p className='location-title btn white-border-btn white-border-btn-arrow'>Our Locations</p></Link>
+                        </div>
+                    </div>
+                    <div className='map'>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.1366681738036!2d78.4991588143541!3d17.453171605499534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9a4010000075%3A0x95d6d292114c88f3!2sSimandhar%20Education%20-%20India&#39;s%20award%20winning%20Institute%20for%20US%20CPA%20%26%20IMA%20approved%20partner%20for%20US%20CMA.!5e0!3m2!1sen!2sin!4v1676294186295!5m2!1sen!2sin" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+            <div className='red_box'>
+                <div className='container grid'>
+                    <h3 className='title'>Simandhar Learn App ( LMS ) is Available
+                        on all Platforms</h3>
+                    <div>
+                        <a href="https://apps.apple.com/us/app/simandhar-learn/id1628605439" target="_blank" rel="noopener noreferrer"> <img src="img/app_store_1.png" alt="apple store" /></a>
+                        <a href="https://play.google.com/store/apps/details?id=com.horizzon.simandhareducation&hl=en_IN&gl=US&pli=1" target="_blank" rel="noopener noreferrer"> <img src="img/app_store_2.png" alt="apple store" /></a>
+                    </div>
+                </div>
+            </div>
+        </>
+    )
+}
