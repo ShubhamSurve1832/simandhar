@@ -1,0 +1,11 @@
+{
+    "achivers":[
+        {
+            "id": 1,
+            "img": "/img/achiever01.jpg",
+            "desc": "I am thrilled to share that I have cleared all 4 parts of the US CPA examination. It has been a challenging journey and a lot of ups and downs from deciding to quit my job to studying full time and.." ,
+            "achName":"Ashwini Nathan",
+            "achPos":"US CPA"
+        }
+    ]
+}
