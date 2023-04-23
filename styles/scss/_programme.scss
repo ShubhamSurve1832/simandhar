@@ -1,0 +1,1703 @@
+.read-more,span.react-read-more-read-less.react-read-more-read-less-less{color: #760B28;font-weight: 700;position: relative; cursor: pointer;
+  &::after{  content: ">";position: absolute;top: 5px;padding-left: 1rem;}
+  span.react-read-more-read-less.react-read-more-read-less-less {
+    &::after{  content: ">";position: absolute;top: 0;padding-left: 1rem;}
+  }
+  }
+.background-gradient{background: linear-gradient(90deg, rgb(118, 11, 40) 0%, rgb(136, 35, 111) 100%);;}
+html {
+  scroll-behavior: smooth;
+}
+
+.program-banner{display: grid;grid-template-columns: 56% 44%;align-items: center;
+@include breakpoint (max,767px){display: block;}  
+  .banenr-left{
+    img{display: block;width: 100%;}
+  }
+  .progam-info{padding-inline: 6rem;
+  @include breakpoint(max ,970px){padding-left: 6rem;margin-top: 3rem;}
+    .heading02{color: $primary-color;
+    @include breakpoint(max,500px){text-align: left;}}
+    ul{margin-top: 4rem;padding-left: 2.5rem;
+    @include breakpoint(max,970px){margin-top: 2rem; }
+      li{color: #000;font-size: 2.8rem;font-weight: 700;line-height: 4rem;margin: 1.5rem 0;list-style-type: disc;text-transform: capitalize;
+      @include breakpoint(max,970px){margin: 1rem 0;}}
+    }
+  }
+}
+
+.exam-section{
+  p{margin-bottom: 0;margin-top: 4rem;}
+  .exam-header{display: grid;grid-template-columns: auto 75rem;align-items: center;
+  @include breakpoint(max,970px){grid-template-columns: auto 50%;}  
+  @include breakpoint(max,500px){display: block;text-align: center;}
+  }
+  .exam-right-box{background-color: $secondary-color;padding: 2rem 0;text-align: center;
+  @include breakpoint(max,500px){margin-top: 2rem;}  
+    span{color: #fff;line-height: 3rem;font-weight: 700;font-size: 2.8rem;display: inline-block;
+      // &:last-child{border-left: solid 2px #fff;padding-left: 1rem;margin-left: 1rem;}
+    }
+  }
+
+
+p.tab-button-mobile{position: relative;
+
+  svg{font-size: 6rem;vertical-align: middle;position: absolute;right: 2rem;top: 50%;bottom: 50%;transform: translateY(-50%);transition: .3s ease all;
+  &.active{transform: rotate(180deg); transition: .3s ease all;}}
+} 
+}
+@include breakpoint(max,700px){tab-header.active{display: block;}}
+
+.journery-section{.heading02{@include breakpoint(max,767px){text-align: center;}}}
+.journey-container{margin-top: 5.5rem;display: grid;grid-template-columns: repeat(5, 1fr);grid-column-gap: 5rem;
+@include breakpoint(max,767px){grid-template-columns: repeat(1, 1fr);grid-row-gap: 3rem;}
+  .journey-box{position: relative;
+  @include breakpoint(max,767px){display: grid;justify-content: space-between;grid-template-columns: 45% 55%;align-items: center;text-align: center;grid-gap: 1rem; 
+    &:nth-child(even){direction: rtl;}} 
+  dl{position: relative;padding-top: 4.5rem;
+      &:before{content: '';position: absolute;background-image: url(/img/cpa/jour_arrow.svg);background-repeat: no-repeat;background-size: contain;width: 5.8rem;height: 2.4rem;top: calc(50% + 2.5rem);transform: translateY(-50%);left: -5.8rem;
+      @include breakpoint(max,970px){background-size: 85%;width: 5.8rem;}
+      @include breakpoint(max,767px){display: none;}
+    }
+    }
+    .num{background-color: $lavender-color;color: #FFFFFF;font-size: 2.8rem;font-weight: 700;width: 6.3rem;height: 6.3rem;border-radius: 100%;text-align: center;line-height: 6.3rem;display:block;position:absolute; z-index: 9;margin: 0 auto;left: 0;right: 0;top: 0;}
+    .journey-icon{background: #FFF5F5;width: 25rem;height: 25rem;border-radius: 100%;margin-top: -2rem;display: block;padding: 7rem;margin: 0 auto;
+    @include breakpoint(max,970px){width: 20rem;height: 20rem;}
+    }
+    figcaption{margin-top: 4rem;
+    @include breakpoint(max,767px){margin-top: 0;}  
+      .heading06{color: $lavender-color}
+      ul{margin-top: 2rem;
+        @include breakpoint(max,767px){padding-left: 0;} 
+      li{@include breakpoint(max,767px){list-style-type: none;} }}
+    }
+    &:first-child dl:before{content: none;}
+  }
+}
+
+.ol-course-section{
+  .course-container{margin-top: 3.5rem;display: grid;grid-template-columns: repeat(3, 1fr);grid-gap: 6rem;
+  @include breakpoint(max,970px){grid-gap: 4rem;}  
+  @include breakpoint (max, 600px ){grid-template-columns: repeat(1, 1fr);}
+    .course-box{
+        .img-box{border-radius: 3.3rem;overflow: hidden;
+          img{display: block;width: 100%;}
+        }
+        .heading05{margin: 3.5rem  0;}
+    }
+  }
+}
+
+.aside-tab-section{
+  .aside-tab-container{
+    .left-tab-box{background: $gradient;width: 104rem;display: inline-block;vertical-align: top;padding: 5rem 8rem;padding-left: 15rem;margin-top: 5rem;
+    @include breakpoint(max,970px){display: block;padding-left: 8rem;margin: 0 auto;width: 100%;}
+    @include breakpoint(max , 767px ){width: 90%;padding-left: 5rem;}
+    @include breakpoint(max,500px){padding: 5rem;width: 100%;}
+      .tab-header{margin-top: 2.4rem;}
+      .heading02, p{color: #fff;text-align: left;}
+      .tab-btn{padding: 2.5rem 0;border: none;border-top: solid 1px #C07589;border-top: solid 1px #C07589;color: #C07589;font-size: 3.6rem;line-height: 4rem;list-style: none;background-color: transparent;width: 100%;display: block;text-align: left;
+        @include breakpoint(max,500px){padding-right: 2rem;}
+        &[data-headlessui-state=selected], &:hover{color: #fff;font-weight: 500;background-image: url("/img/arrow_white.svg");background-repeat: no-repeat;background-position: center right 3rem;
+        @include breakpoint(max,500px){background-position: center right;}}
+      }
+    }
+    .right-tab-box{width: calc(100% - 104rem);display: inline-block;vertical-align: middle;background-color: #FFF5F5;border-radius: 3.3rem;padding: 5rem 6.5rem;padding-right: 10rem;
+      @include breakpoint(max ,767px){padding-right: 0; padding: 2rem; }
+    @include breakpoint(max,970px){width: 100%;}
+      .syllabus-row{margin-top: 3rem;
+        &:first-child{margin-top: 0;}
+        .heading05{color: $primary-color}
+        ul{margin-top: 1.5rem;
+          li{line-height: 3.8rem;}
+        }
+        &:first-child{
+          ul, .heading05{margin-top: 0;display: inline-block;vertical-align: middle;}
+        }
+      }
+    }
+  }
+}
+
+.table-section{
+  table{
+    thead {
+      @include breakpoint(max,500px){border: none;clip: rect(0 0 0 0);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: auto;}}
+    th, td{border: solid 1px $primary-color;width: 33.33%;}
+    td{@include breakpoint(max,500px){
+      &::before{    content: attr(data-label);text-transform: uppercase;display: inline-block;width: 95px;text-align: left;border: none;padding:3rem 2rem;font-size: 2.4rem;font-weight: 700;color: #760B28;vertical-align: top;}
+    }
+  }
+    th{padding: 2rem 1rem;font-size: 2.4rem;font-weight: 700;color: $primary-color;}
+    td{padding: 3.5rem; 
+      p{ span{strong{font-weight: bold;display: block;}}}
+      .cs-content{display: none;
+        &.active{display: block;}
+      p{margin-top: 2rem;}
+    .title{font-weight: 700;}}
+    @include breakpoint(max,500px){width: auto;display: block;padding: 0;margin: 5px 0;
+    p{width: calc(100% - 95px);display: inline-block;border-left: solid 1px #760B28;padding: 2rem;}}
+    }
+  }
+
+ 
+.inner-container{width: 33.33%; margin-top: 3rem;display: none;
+  &.active{display: block;}
+.inner-table{
+  tr{th{ background-color: $primary-color; color: #fff; font-size: 1.6rem; border: none !important;
+    &:nth-child(2){background-color: #88236F;}
+    &:last-child{background-color: #B5519C;}
+  }
+ 
+td{font-size: 1.6rem;padding: 2rem 1rem; border: none !important;}
+}
+tbody{tr{ background-color: #E2E2E2; 
+&:nth-child(even){background-color: #F4F4F4;}}}
+ }
+
+}}
+
+.cont-partner-container{margin-top: 3.5rem;
+  .cont-partner-row{margin-top: 2.5rem;display: grid;grid-template-columns: 53rem 1fr;
+  @include breakpoint(max,970px){ grid-template-columns: 30% 1fr;}
+  @include breakpoint(max,767px){display: block;}
+    .logo-box{border: solid 1px #C9C9C9;padding: 0 3rem;display: flex;align-items: center;justify-content: center;
+    @include breakpoint(max,767px){padding: 10%;}
+    }
+    .content-box{padding: 4rem 5rem 2rem;
+    @include breakpoint(max,500px){text-align: center;padding: 2rem 1rem 2rem;} 
+      p{ margin-bottom: 1rem; @include breakpoint(max,500px){text-align: left;}}
+      a{background-size: 1.5rem;}
+      ul{ padding-bottom: 3rem;
+      li{font-size: 2.4rem;margin-bottom: 1rem; @include breakpoint(max,767px){text-align: left;font-size: 3rem;line-height: 3.9rem;}}  }
+    }
+  }
+}
+.background-none.key-takeways{.help-section{ padding-top: 0;}}
+.background-none{.help-section{background-color:transparent;
+  padding-top: 8rem;
+}}
+  
+  .help-section{background-color: #FFF5F5; padding-top: 8rem;
+    .heading02{padding-right: 26%;
+    @include breakpoint(max,500px){padding-right: 0;}}
+  
+  .help-container{display: grid;grid-template-columns: repeat(4, 1fr);grid-gap: 6.5rem;margin-top: 7.5rem;
+  @include breakpoint(max,767px){grid-template-columns: repeat(3, 1fr);margin-top: 5.5rem;grid-gap: 1.5rem;}  
+  @include breakpoint(max,500px){grid-template-columns: repeat(2, 1fr);margin-top: 5.5rem;grid-gap: 1.5rem;}  
+    dl{text-align: center;
+      dt{height: 11.2rem;display: inline-block;width: 11.2rem;
+        img{height: 100%;}
+      }
+      dd{font-size: 3.2rem;font-weight: 700;line-height: 3.7rem;margin-top: 3rem;}
+    }
+  }
+}
+
+.career-section{background-color: #FFF5F5; padding-bottom: 5rem;
+  .career-container{margin-top: 4.5rem;display: grid;grid-template-columns: repeat(4, 1fr);
+  @include breakpoint(max,970px){grid-gap: 2rem;grid-template-columns: repeat(2, 1fr);  
+  @include breakpoint(max,767px){grid-template-columns: 1fr;}}  
+    .career-box{font-size: 3.2rem;line-height: 4.4rem;color: #fff;background: rgb(181, 63, 95);
+      background: linear-gradient(0deg, rgba(181, 63, 95, 1) 0%, rgba(118, 11, 40, 1) 100%);
+      .career-head{font-weight: 600;min-height: 13.5rem;padding: 2.3rem 1.5rem;text-align: center;background: #B33E5E;display: flex;align-items: center;justify-content: center;
+      @include breakpoint(max,500px){min-height: 8.5rem;}}
+      .career-content{padding: 3.5rem 4rem;padding-bottom: 7rem;font-weight: 400;}
+      &:nth-child(even) .career-head{background-color: #3B0626;}
+      &:nth-child(even){background: rgb(57, 5, 37);background: linear-gradient(0deg, rgba(57, 5, 37, 1) 0%, rgba(133, 32, 93, 1) 100%);}
+    }
+  }
+  p{line-height: 5rem;font-size: 3.2rem;margin-top: 3rem;}
+}
+
+.placement-section{
+  .partner-container{display: grid;grid-template-columns: auto 65rem;grid-gap: 7rem;margin-top: 3.5rem;align-items: center;
+  @include breakpoint(max,767px){grid-template-columns: auto;} 
+  @include breakpoint(max,500px){grid-template-columns: auto;grid-gap: 4rem;}
+    .partner-logo-box{display: grid;grid-template-columns: repeat(6, 1fr);border-right: solid 1px #2C2C2C;border-bottom: solid 1px #2C2C2C;
+      .logo-box{border-left: solid 1px #2C2C2C;border-top: solid 1px #2C2C2C;padding: 2.5rem;display: flex;align-items: center;justify-content: center;height: 20rem;
+        &:nth-child(3n-2){grid-column: 1/3;}
+        &:nth-child(3n-1){grid-column: 3/5;}
+        &:nth-child(3n){grid-column: 5/7;}
+        &:nth-last-child(2){grid-column: 1/4;}
+        &:last-child{grid-column: 4/8;}
+        img{height: 65% !important;
+        @include breakpoint(max,500){height: 100% !important;}}
+      @include breakpoint(max,500px){
+        &:nth-child(1){grid-column: 1/4;}
+        &:nth-child(2){grid-column: 4/8;}
+        &:nth-child(3){grid-column: 1/4;}
+        &:nth-child(4){grid-column: 4/8;}
+        &:nth-child(5){grid-column: 1/4;}
+        &:nth-child(6){grid-column: 4/8;}
+        &:nth-child(7){grid-column: 1/4;}
+        &:nth-child(8){grid-column: 4/8;}
+      }
+      .btn.maroon-border-btn.maroon-border-btn-arrow {       
+    @include breakpoint(max,500px){padding: 1.8rem;padding-right: 4rem;background-position: center right 1.3rem;background-size: 1.5rem;font-size: 2rem;
+    }
+      }
+    } 
+  }
+}
+  .content{display: none;
+    &.active{display: block;}
+    .title{ font-weight: 700;}
+    p{font-size: 3.2rem;line-height: 4.8rem; margin-top: 2rem;}
+  }
+  .text-center{margin-top: 4rem;}
+  .content + .text-center{.btn2{display: none;}}
+  .active + .text-center{.btn1{display: none;} .btn2{display: inline-block;}} 
+}
+
+
+
+.faq-section{
+  .faq-container{margin-top: 3.5rem;
+    .faq-row{border-top: solid 1px #000;padding: 3.5rem 6rem;
+      @include breakpoint(max,767px){padding: 3.5rem 2rem;}
+      .faq-title{line-height: 4rem;font-size: 3.6rem;color: #000;position: relative;
+        &::after{ content: ''; background-image: url("/img/black_up_arrow.png");background-repeat: no-repeat;background-position: center right 2rem;background-size: 50%;position: absolute;width: 3%;height: 90%;right: 0;transform: rotate(90deg); 
+          @include breakpoint(max,767px){width: 5%;}
+          @include breakpoint(max,500px){width: 8%;}}
+       
+      }
+      .faq-toggle-box{margin-top: 2rem;display: none;
+        .faq-box{border-bottom: 1px solid #dddddd;padding: 2.5rem 0;
+          .heading06{margin-bottom: 1.5rem;}
+          ul{margin-top: 1.5rem;}
+          &:last-child{border-bottom: none;}
+        }
+        table{width: 100%;margin-top: 3.5rem;text-align: left;
+          td,th{border: solid 1px #f5f5f5;padding: 1rem 2.5rem;font-size: 2rem;font-weight: 400;color: #2C2C2C;line-height: 3.1rem;}
+          th{font-weight: 700;}
+        }
+      }
+      &:last-child{border-bottom: 1px solid #000;}
+      &.active{
+        .faq-title {position: relative;
+        &::after{transform: rotate(0deg);}
+      }
+    }
+    }
+  }
+}
+
+// CPA BACKER SECTION
+.twoBox{display: grid;grid-template-columns: 62% 33%;align-items: flex-start;grid-gap: 8rem;padding-top: 5rem;
+  @include breakpoint(max,767px){grid-template-columns: 100%;grid-gap: 0rem;padding-top: 3rem;}
+  @include breakpoint(max ,500px){grid-template-columns: 1fr;}
+.boxOne{font-size: 3.2rem;margin-bottom: 0;}
+.bold{font-weight: 700;}
+.data { display: none;
+&.active{display: block;}
+p{margin-top: 2rem;}
+}
+}
+// CMA PAGE DESIGANTION SECTION
+.designation-section{ 
+  .heading02{padding-bottom: 3rem;}
+  .designation-list{padding-right: 5rem;
+    li{margin-bottom: 3rem;
+    &:last-child{margin-bottom: 2rem;}}
+  }
+}
+
+// CPA EXAM TAB CPA COURSE DURATION
+.cpa-exam-tab{.section{padding-top: 0;}}
+
+// CPA Prometric Locations
+.cpa-location{section{padding-bottom: 8rem;
+  p{margin-bottom: 1rem;}
+  .designation-list {margin-top:0;
+    .heading05{margin-bottom: 2rem;font-weight: 400;font-size:2.4rem}}}}
+
+// GLOBLE ACCOUNTING SECTION CPA PAGE
+.globle-accounting{
+  p{margin-bottom: 1rem;font-size: 3.2rem;}
+  .designation-list {margin-top:3rem;
+    .med-font{font-size: 3.2rem;}
+    .heading05{margin-bottom: 1rem;font-weight: 400;font-size:3.2rem}}
+}
+
+// CPA TABLE BUTTON
+.view-btn{text-align: center;border: 1px solid #760B28;padding: 3rem;border-top: none;}
+
+//US CPA Exam in India Every Month from 2021
+.cpa-exam-tab2{.section{padding: 0; .exam-header{display: block;} .pr-color{font-size: 3.2rem;}}}
+
+// CPA  PROGRAM TABLE
+.cpa-program-table{table{border: none;}}
+// CMA exam Section
+.cma-exam-section{
+  .exam-section .exam-header{display: block;
+    .heading02{font-size: 6rem;line-height: 7rem;
+    @include breakpoint(max,500px){text-align: left;font-size: 5rem;}}}
+}
+
+// achiver Section
+// .key-takeways{
+//   .help-section{padding-top: 8rem;}
+// }
+
+// CMA Keytakways
+.background-none {.section.help-section{.container-l{.heading04{font-size: 2.4rem; @include breakpoint(max,500px){text-align: center;}}}}}
+
+// Achivers Section
+.text-center .achiever-section .achiever-container .achiever-box figcaption .content {
+  min-height: 0;
+}
+// Career Oportunity after CMA
+.background-none{
+  .section{
+    // padding-top: 0;
+    .help-container dl {
+      text-align: center;
+      @include breakpoint(max,767px){padding: 0 2.8rem; }
+  }
+}
+}
+
+// cont-partner-section CMA
+.section.cont-partner-section{padding-top: 8rem;}
+
+//HELP Section CMA
+.cma-help{.heading02{padding-right: 26%;
+  @include breakpoint(max,767px){text-align: center;padding-right: 0;}}}
+// What our Achievers have to say
+.text-center{
+  .section.achiever-section.pt-8{
+    padding-top: 0 !important;
+    .heading02{text-align: left;}
+  }
+}
+
+// CMA LAST TABLE
+.cma-table{
+  .tableSection{ padding-bottom: 0; 
+  table{border: 1px solid #760b28;
+  th:first-child{width: 0; text-align: left; 
+
+  }}
+}
+}
+
+// EA PAGE TAKAEWAYS
+.ea-page{text-align: center;
+  .help-section{ 
+    .container-l{
+      .heading02{padding-right: 0;}
+    .help-container {width: 70%;margin: 0 auto;display: grid;grid-template-columns: repeat(3, 1fr);grid-gap: 6.5rem;margin-top: 7.5rem;
+      @include breakpoint(max,767px){width: 100%;}
+      @include breakpoint(max,500px){grid-template-columns: repeat(2, 1fr);grid-gap: 2.5rem;}
+    }
+    }
+  }
+}
+
+// Curriculum Section One On CMA Page
+.cma-tab .aside-tab-section{padding-bottom: 0;}
+.cma-tab .aside-tab-section .aside-tab-container .left-tab-box{width: 78rem; 
+  @include breakpoint(max ,970px){width: 100%;padding: 3rem 5rem;}
+  @include breakpoint(max ,767px){width: 100%;padding: 3rem 5rem;}
+}
+.cma-tab .aside-tab-section .aside-tab-container .right-tab-box {width: calc(100% - 78rem);height: 70rem;overflow: auto;
+  @include breakpoint(max,970px){width: 100%;}
+  @include breakpoint(max,767px){width: 100%;}
+  .tab-container{height: 55rem;overflow: auto;
+    h3.heading05{color: $primary-color;}  
+  }
+     .scroll-down-arrow{text-align: center; padding-top: 2rem; color: #696969;
+      &::after{content: "";height: 1.5rem;width: 1.5rem;border-style: solid;border-color: #696969;border-width: 0px 2px 2px 0px;transform: rotate(45deg);transition: border-width 150ms ease-in-out;position: absolute;margin-left: 3rem;margin-top: 0.5rem;}
+      }
+ 
+}
+.cma-tab .aside-tab-section .aside-tab-container .right-tab-box .number{ width: 5.7rem;height: 5.7rem;border-radius: 100%;text-align: center;display: block; font-size: 3.2rem;line-height: 3.7rem;display: flex;justify-content: center;align-items: center; background: #760B28;color: #ffffff;}
+.cma-tab .aside-tab-section .aside-tab-container .right-tab-box .row{display: grid;grid-template-columns: 8% auto;margin-top: 4.2rem;
+  @include breakpoint(max , 767px ){grid-gap: 2rem;grid-template-columns: 8% auto;}}
+
+
+// table section  On CMA Page 
+.tableSection{padding-bottom:8rem ;}
+table {width: 100%;border-collapse: collapse;margin: 0 auto;
+  border: 1px solid #760B28;
+  // margin-top: 3rem;
+  // @include breakpoint(max,500px){border: none;}
+}
+.strip tr {line-height: 5rem;padding-left: 1.5rem;}
+.strip td {padding: 2.7rem 4rem;text-align: center;min-width: 10rem;font-size: 2.4rem;line-height: 3rem;color: #000000;
+  @include breakpoint(max,500px){min-width: 40rem;padding: 2.7rem 2rem;font-size: 3rem;line-height: 3.5rem;}}
+.strip th {background-color: #fff;color: #760B28;padding: 4.5rem 4rem;font-size: 2.4rem;line-height: 2.8rem;font-weight: 600;vertical-align: middle;width: 33.33%;
+  @include breakpoint(max,500px){font-size: 3rem;}}
+.strip tr:nth-child(odd) {background-color: #FFF5F5;border-bottom: none;}
+.strip tr:nth-child(even) {background-color: #F9EBEB;border-bottom: none;}
+thead th{border-bottom: 1px solid;border-left: 1px solid;}
+tbody td{border-left: 1px solid;}
+
+// TABLE THREE || How will this Workshop Redefine my Career Growth and Aspirations
+.saamarthPage-tablethree{
+  
+}
+
+// EA PAGE 
+// GALLERY SECTION
+.gallery-section{
+  .container-l2{width: 95%; margin: 0 auto;
+    .gallery-box{ display: flex;padding: 4rem 0;grid-gap: 2rem;position: relative;justify-content: center;
+      .gallery-img {width:32.50%;display: inline-block;
+      &:first-child{position: absolute;bottom: -4rem;left: 0;}
+      &:last-child{position: absolute;top: -4rem;right: 0;}}
+  }
+  }
+}
+
+// Curriculum Tab Section
+.ea-curriculum{
+  section.aside-tab-section{padding-bottom: 0;
+    .aside-tab-container{
+      .left-tab-box{display: inline-block;vertical-align: top;padding: 5rem 8rem;padding-left: 15rem;margin-top: 5rem;width: 78rem;
+      @include breakpoint(max,970px){width: 100%;padding-left: 5rem;padding: 5rem;}}
+      .right-tab-box{display: inline-block;vertical-align: middle;background-color: #FFF5F5;border-radius: 3.3rem;padding: 5rem 6.5rem;padding-right: 10rem;width: calc(100% - 78rem);height: 70rem;overflow: auto;
+        @include breakpoint(max,970px){width: 100%;padding-right: 8rem;padding: 5rem 5rem;height: auto;}
+      .tab-container{
+        .li2{padding-top: 6rem;
+        li{font-size: 3.2rem;font-weight: 700;padding-bottom: 2rem;}}
+      }}
+    }
+  }
+}
+
+// EA video Section
+.ea-video-section{
+  section{padding-top: 0;}
+}
+
+// EA PAGE CONTENT PARTNER SECTION
+.ea-content-section{
+  .cont-partner-section{
+    .content-box{.read-more{display: none;}}
+  }
+}
+
+// EA PAGE EXAM SECTION
+.ea-section{
+  section{padding: 0;}
+}
+
+// CIA PAGE STYLE
+.tableSection{
+  .heading02{margin-bottom: 5.5rem;}
+} 
+
+// trainer section yogesh
+
+.trainer-section{
+  .box{display: grid;grid-template-columns: 50% 45%; grid-gap: 5%;
+    @include breakpoint (max, 1023px){
+      grid-template-columns: 55% 45%;
+    }
+    @include breakpoint (max, 767px){
+      display: block;
+    }
+    .right_box{width: 100%;
+      @include breakpoint (max, 767px){
+        width: 100%;margin-top: 4rem;
+      }
+    .heading02{margin-bottom: 5rem;}
+    .txt p{color: #760B28;font-size: 2.4rem;line-height: 3rem;text-align: justify;}
+    .txt p:first-child{margin-bottom: 4rem;}
+    }
+    .left_box{width: 100%;
+      @include breakpoint (max, 1023px){
+        width: 100%;
+      }
+      @include breakpoint (max, 767px){
+        width: 100%;margin-top: 3rem;
+      }
+    }
+
+  }
+}
+
+// CIA EXAM SECTION
+
+.cia-exam-section{
+  .exam-section{padding: 0 0 8rem;}}
+
+.cia-exam-section.black-bag{background-color: #272727;color: #ffffff;padding:4.5rem 0;
+  .exam-section{padding: 0;
+    @include breakpoint (max,767px){
+  .exam-header{grid-template-columns: 1fr;}}}
+  .heading02, .pr-color{color: #ffffff;    margin-bottom: 0;}
+}
+
+// CIA HELP SECTION KEY TAKEWAYS
+.cia-help-section .help-container{display: block;max-width: 123rem;width: 100%;margin: 0 auto;}
+.cia-help-section{text-align:center;
+.help-section .help-container{display: block;max-width: 123rem;width: 100%;margin: 0 auto;margin-top: 9rem;
+  
+  dl{display: inline-block;vertical-align: top;width: 33.33%;
+    @include breakpoint (max,767px){width: 50%;
+    &:nth-child(3){margin-top: 6rem;}}
+  &:nth-child(4),&:nth-child(5){margin-top: 6rem;}
+  }
+  // dl:nth-child(4), dl:nth-child(5){margin-top: 6rem;}
+}
+.container-l{.heading02{padding-right: 0;}}
+}
+
+ // BANNER SECTION CIA
+
+.banner-ciaPage{
+  .section{padding: 0;}
+}
+
+// cia-tab CurriculumSectionone
+.cia-tab {
+  .section.aside-tab-section{
+    .left-tab-box {
+      height: 50rem;
+  }
+    .right-tab-box{
+      .row{
+        .heading05{color: $primary-color;}
+      }
+    }
+  }
+}
+
+// CIA KEY TAKAWAYS
+.background-none.key-takeways .section.help-section .container-l .heading04 {
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+
+// exam fee table cia
+.exam-fee-cia{
+  .tableSection {
+    table{
+      thead{
+        th{
+          &:first-child{width: 20%;}
+          &:nth-child(2){width: 40%;}
+          &:last-child{width: 40%;}
+        }
+      }
+    }
+  }
+}
+//  LAST TABLE CIA
+.tableSection {
+  .container-l{
+    p.mt-4{color: #000;}
+  }
+}
+
+// CIA content-partner
+.cia-content-partner{
+  .cont-partner-section{
+    .cont-partner-container{
+      .content-box{
+        p{
+          a{display: none;}
+        }
+        ul{ li{color: #000;}}
+      }
+    }
+  }
+}
+
+// Banner Section DATA Analytics
+.da-banner{
+  .program-banner { @include breakpoint (max,970px){ display: block;;}
+  .title01{color: #000;padding-right: 6rem;line-height: 4.8rem;font-weight: 400;
+  @include breakpoint(max,500px){padding-right: 0;font-size:3rem ; }}  
+  .progam-info{padding-inline: 3rem;padding-top: 4.5rem;}
+}
+}
+// DA Exam Section
+.da-exam{
+  section{padding-top: 0;
+  .pr-color{margin-bottom: 0;}}
+}
+
+// DA Achiever Section
+.da-achievers{
+  .achiever-section{
+    .title01{color: #000;margin-top: 2rem;
+    @include breakpoint (max,500px){font-size: 3rem;margin-top: 3rem;} }
+    .achiever-container{    align-items: flex-start;
+      .achiever-box {background-color: #760B28;
+        figcaption{    display: flex;flex-direction: column;justify-content: space-between;min-height: 40rem;
+          .content{
+            p{.read-more{margin-top: 1rem;}}
+          }
+          .rm-btn{color: #fff;}
+          span{font-size: 2.2rem;}
+        }
+      &:nth-child(even) figcaption p .rm-btn {color:  #fff;}
+      }
+    }
+    .btn-wrap.text-center{display: none;}
+  }
+}
+
+// DA UPCOMING BATCHES 
+
+.batches-section{
+  .two-box-row {display: grid;grid-template-columns: 1fr 1fr;background-color: #FEE5E5;border-radius: 33px;padding:0 6.3rem;grid-gap: 2.9rem;margin-top: 5rem; 
+    @include breakpoint(max,970px){display: block; padding-bottom: 5rem;}
+    @include breakpoint(max,767px){padding: 3rem 3.3rem;}
+    .right-box{
+      .grid-row{display: flex;grid-gap: 3.8rem;align-items: center;padding-top: 4rem; 
+        @include breakpoint(max,970px){justify-content:center;}
+        @include breakpoint(max,500px){flex-direction: column;text-align: center;grid-gap: 3rem;padding-top: 3rem;}
+        .date-circle{position: relative;width: 17.9rem;height: 17.9rem;background:$primary-color;border-radius: 50%;padding: 3rem; 
+          .date-box{position: absolute;display: flex;flex-direction: column;text-align: center;top: 50%;left: 3rem;transform: translateY(-50%);right: 3rem;background: #fff;border-radius: 8px; 
+            .month-row{font-size: 2.4rem;padding: 0.6rem 2.7rem;border-bottom: 2px solid $primary-color;font-weight: 700;color: $primary-color;}
+            .date-row{font-size: 6.4rem;padding: 1rem 3.4rem;font-weight: 700;color: $primary-color;}
+          }
+        }
+        .batch-content{
+          .heading03{color: $primary-color;border-bottom: 1px solid $primary-color;padding-bottom: 1.8rem;font-weight: 700;}
+          .heading05{margin-top: 3rem;width: max-content;font-weight: 400;
+          @include breakpoint(max,500px){width: auto;line-height: 4rem;}}
+          .download-schedule{margin-top: 4rem;}
+        }
+      }
+    }
+  }
+}
+
+// Data Analytics Section
+.analytics-section{background-color: #FFF5F5;
+  .heading04{margin-top: 5rem;color: $primary-color;}
+  .key-topics-flex{display: grid;grid-template-columns: repeat(3,1fr);text-align: center;border: 1px solid;margin-top:4rem;
+    @include breakpoint(max,767px){display: block;}
+    .box{border: 1px solid;padding: 4rem 9rem;
+    @include breakpoint(max,970px){padding: 4rem 2rem;}}
+  }
+  .skills-list{margin-top: 8rem;
+    .heading04{color: $primary-color;}
+    ul{padding-left: 0;margin-top:4rem;
+      li.heading05{display: flex;grid-gap: 3.5rem; padding-bottom: 2rem;width: max-content;align-items: center;
+        @include breakpoint(max,970px){width: 100%;display: grid;grid-template-columns: 4% 94%;}
+        .count{width: 4.7rem;height: 4.7rem;border-radius: 100%;text-align: center;font-size: 3.2rem;line-height: 3.7rem;display: flex;justify-content: center;align-items: center;background: #000;color: #fff; }
+      }
+    }
+  }
+}
+
+// DATA VISUALIZATION
+.visualization-section{background-color: #FAE9E9;
+  .key-topics-flex{
+    .box{
+      &:last-child{grid-column: 1/4;}
+    }
+  }
+}
+
+// ifrs page 
+.banner-ifrsPage{
+  .program-banner {display: block;
+    .progam-info{ul{padding-left: 10rem;margin-top: 5rem;
+@include breakpoint(max,500px){padding-left: 0;}
+    }
+    .heading02{margin-top: 5rem;}}
+    .banenr-left {width: 56%;float: left;margin-right: 5%;margin-bottom: 2%;margin-top: -5rem;
+    @include breakpoint(max,767px){width: 100%;}}
+ }
+}
+
+.ifrs-exam-section{
+.exam-section{padding-top: 0;
+  .exam-header{display: none;}
+  p{margin-bottom:0; &:nth-child(2){margin-bottom: 3.5rem;}}
+}
+}
+
+.ifrs-help-section{
+.heading02{text-align: center;padding-right: 0;}
+.heading04{text-align: center;}
+.help-container{grid-template-columns: repeat(3, 1fr);max-width: 123rem;width: 100%;margin: 0 auto;margin-top: 8rem;
+@include breakpoint(max,500px){    grid-template-columns: repeat(2, 1fr);}}
+}
+
+.ifrs-gallery-page{
+.gallery-section {margin-top: 0;}
+}
+.ifsr-achiever{
+.section{padding: 0 !important;
+  .achiever-section .achiever-container .achiever-box figcaption p .rm-btn{display: none;}
+  .btn-wrap{display: none;}
+}
+.pt-8{padding-top: 0;}
+}
+
+.ifrs-tab {
+  .right-tab-box {
+    overflow: visible !important;
+    height: 75rem !important;
+
+  .tab-container {height: 43rem !important;
+  .tab-box{
+    .row{
+      .heading05{color: $primary-color;}
+    }
+  }
+  }
+}
+}
+
+// saamarth page 
+.banner-saamarthPage{
+  .title02{margin-top: 1rem;}
+  .pr-color{font-size: 2.8rem;line-height: 3.4rem;font-weight: 500;}
+}
+
+.saamarthPage-table{
+  .tableSection {
+    .custom-scrollbar{
+  .strip th:nth-child(odd){background-color: #760B28;color: #ffffff;}
+  .strip th:nth-child(even){background-color: #5A0F24;color: #ffffff;}
+  .Download-btn{text-align: center;padding-top: 3rem;}
+  table{
+    tr{
+      th{border-left: none;}
+    }
+  }
+}
+}
+}
+
+.saamarthPage-tabletwo{padding-top: 4rem;
+  .strip tr{background: none; 
+  td{text-align: left;}}
+}
+
+.saamarth-form{background: linear-gradient(90deg,#760b28,#88236f);padding: 10rem 15rem;margin:8rem 0;
+  @include breakpoint(max,970px){padding: 5rem 0;}
+  .container-l{width: 100%;position: relative;
+    @include breakpoint(max,970px){width: 90%;}
+    .left-box{width: 73.5rem;
+      @include breakpoint(max,970px){width: 100%;}
+      .heading03{color:#fff;padding-right: 2rem;}
+      .heading08{color:#fff;padding-right: 8rem; margin-top: 4rem;}
+      .title01{color: #fff;margin-top: 4rem;}
+    }
+    .right-form-box{position: absolute;top: -40%;border-radius: 3.3rem;right: 0;padding: 5rem;width: 83rem;padding-top: 0;
+      @include breakpoint(max,970px){width: 100%; margin-top: 4rem; position: initial;padding-top: 5rem;}
+    }
+  }
+}
+
+.Workshop-redifine{margin-bottom: 8rem;
+  .container-l{
+    .heading02{padding-right: 32%; 
+    @include breakpoint(max,970px){padding-right: 0;}}
+    .title01{margin-top: 2rem;padding-right: 18%;
+      @include breakpoint(max,970px){padding-right: 0;}}
+    .four-box-grid{display: grid; grid-template-columns: repeat(4,1fr); margin-top: 4rem;
+      @include breakpoint(max,970px){ grid-template-columns: repeat(2,1fr);}
+      @include breakpoint(max,500px){ grid-template-columns: repeat(1,1fr);}
+
+      .box{padding: 4rem 2.8rem; border: 1px solid $primary-color;
+      .heading05{color: $primary-color;}}
+    }
+  }
+}
+.saamarthPagepartner{
+  .section.cont-partner-section{padding: 0;
+ }
+}
+
+.saamarth-help-section{
+  .help-section{
+    .help-container{max-width: 162rem;}
+  }
+}
+// free-resources
+
+.free-banner{
+  background-image: url("/img/free_resource_banner.webp") ;background-repeat: no-repeat;background-position: center;background-size: cover;
+  position: relative;height: 80vh;
+  .heading02{font-weight: 500;
+    font-size: 6.4rem;
+    color: #760B28;
+    line-height: 7rem;margin-bottom: 2rem;}
+    .heading01{font-weight: 500;
+      font-size: 2.8rem;
+      color: #000000;
+      line-height: 4rem;padding-right: 36%;}
+      .banner-text{
+        position: absolute;
+        top: 37%;
+        left: 30%;
+        width: 80rem;
+        transform: translate(-50%, -50%);
+        @include breakpoint(max,970px){left: 32%;width: 70rem;}
+      }
+    }
+
+.free-resource-form{
+  .container{max-width: 112.9rem;
+    .resource-form{
+      .input-text{border-bottom: 1px solid #000; margin-bottom: 4.4rem;margin-top: 4rem;
+        input{border: none;font-size: 2rem;
+        }
+        .react-tel-input .form-control{border-bottom: none !important;}
+        .flag-dropdown {border-bottom: none !important;}}
+      .form-text .heading03{color: #760B28;font-size: 4.8rem;line-height: 5rem;}
+      .select-field{width: 38.7rem;}
+      .resource-btn{margin-top: 5.7rem;}
+      }
+  }
+}
+
+
+.free-resources{
+.resource-btn{   position: absolute;top: 80%;left: 19%;transform: translate(-50%, -50%);
+  @include breakpoint(max,970px){top: 80%;}
+}
+}
+
+// sripal-section
+
+.section.sripal-section{
+  .heading02{margin-bottom: 4rem;color: $primary-color;
+  }
+  .pr-color{
+    margin-bottom: 6.5rem;
+  }
+}
+.sripalBox{
+  .sripalImg{margin-bottom: 3rem;position: relative;
+  &::after{content: ""; position: absolute;opacity: 0.8;height: 3rem;background-color: $primary-color;left: 0;right: 0;bottom: 2px;}}
+  .title01{
+    margin-bottom: 3rem;}
+}
+.sripal-main-box{display: grid;grid-template-columns: 1fr 1fr 1fr;grid-gap: 6rem;
+  @include breakpoint(max,767px){grid-template-columns: 1fr 1fr;}
+@include breakpoint(max,500px){grid-template-columns: 1fr }}
+
+// cpa inner page 
+.our_Course-exam-section{
+  .exam-header{display: block;}
+}
+
+
+.our_Course-faq-section{
+  .faq-section{padding-top: 0 !important;}
+}
+
+.our-classbtn{display: inline-block;padding: 2rem 3.6rem; background: linear-gradient(90deg, #760B28 0%, #88236F 100%);
+  a{color: #ffffff !important;}}
+
+//CPA Inner Page STUDENT CORNER
+.student-corner-section{margin-top:6.4rem;
+  .container-l{max-width: 104.4rem;margin-left: 13rem;width: 100%;
+    @include breakpoint(max,767px){width: 90%; margin: 0 auto;}
+  .heading02{color: #760B28;}
+  .student-corner-row{
+      .student-corner-left-row {display: inline-block;width: 100%;margin-left: -4px;vertical-align: top;
+        @include breakpoint(max,767px){margin-left: 0;}
+        .student-corner-left-box{margin-top: 4.5rem;
+          .heading06{font-size: 2rem;line-height: 3.7rem; font-weight: 400;
+            @include breakpoint(max,767px){font-size: 2.8rem;}
+              span{color:#760B28;}
+          }
+          p{margin-bottom: 3rem;color: #000000;}
+          .heading03{margin-top: 0.8rem;color: #000000;margin-bottom: 3.3rem;}
+          a{color: #760B28;font-size: 2rem;font-weight: 400;line-height: 3.1rem;text-decoration: underline;margin-top: 3.5rem;
+            @include breakpoint(max,767px){font-size: 2.8rem;}
+          }
+          .student-img {margin-top: 3.9rem;}
+          .student-box{display: flex;justify-content: space-between;align-items: center; background-color: $primary-color;padding-inline: 10rem;margin-top: 4.5rem;
+            @include breakpoint(max,767px){display: block;padding: 4rem;}
+            .img-box {width: 73.5%;margin-right: 5rem;
+            @include breakpoint(max,767px){width: 100%;}}
+            .name-box{ 
+              @include breakpoint(max,767px){margin-top: 4rem;}
+              .heading03{color: #04daf7;}
+              .heading04{color: #fff;}
+            }
+          }
+      }
+  }
+      .student-corner-right-row{display: inline-block;width: 30%;vertical-align: top;}
+}
+}  
+}
+
+// ASIDE BOX ||  SEARCH BOX
+aside{position: absolute;right: 15rem;top: 34rem;
+  @include breakpoint(max,1023px){right: 10rem;}
+  @include breakpoint(max,970px){position: initial;width: 90%; margin: 0 auto; margin-top: 8rem;}
+div{
+  form{
+    input{border: none; font-size: 1.6rem;padding: 3.3rem 5.3rem;background-color: #FFEEEE;width: 33rem;
+    @include breakpoint(max,767px){width:-webkit-fill-available; margin: 0 auto;font-size: 3.4rem;}}
+  }
+  .Categories{background-color: #FFEEEE;
+   p {margin-top: 1.7rem;padding: 1.6rem 5.3rem ;}
+   .title{font-weight: 600;border-bottom: 1px solid $primary-color;padding: 3.3rem 5.3rem;}
+  }
+}}
+
+
+
+// CSS BY YOGESH || OUR COURSE BRIDGE SECTION
+.our_Course-exam-section{
+  .exam-header{display: block;}
+}
+
+
+.our_Course-faq-section{
+  .faq-section{padding-top: 0 !important;}
+}
+
+.ol-class-section{padding-top: 0;
+  .ourclass{
+    .ourclass-banner{display: inline-block;width:55%;vertical-align:middle;
+      @include breakpoint(max,767px){display: block;width: 100%;}
+      img{display: block;width: 100%;}
+    }
+   
+  }
+  .side-text{width: 43%;vertical-align: middle; display: inline-block;
+    @include breakpoint(max,767px){display: block;width: 100%;text-align: center;padding: 3rem;}
+    .our-classtext{width: 65%;margin-bottom: 3rem;
+      @include breakpoint(max,970px){width: 85%;margin-bottom: 2rem;}
+      @include breakpoint(max,767px){width: 100%;}
+    }
+  }
+  .our-classbtn{display: inline-block;padding: 2rem 3.6rem;margin-bottom: 3.8rem; background: linear-gradient(90deg, #760B28 0%, #88236F 100%);
+    @include breakpoint(max,970px){margin-bottom: 2.5rem;}
+    a{color: #ffffff !important;}
+  }
+  .our-classbtn01{display: block;text-align: center; margin-bottom: 0;}
+  .row-grid{display: grid;grid-template-columns: 33% auto;grid-gap: 3rem;
+    .ourBanLogo{width: 30%;}
+  }
+}
+
+.our_Course_Bridge_section{
+  .heading02{margin-bottom: 4rem;}
+  .row{display: grid;grid-template-columns: 5% auto;
+    .number{width: 5.7rem;height: 5.7rem;border-radius: 100%;text-align: center;display: block;font-size: 3.2rem;line-height: 3.7rem;display: flex;justify-content: center;align-items: center;background: #760B28;color: #ffffff;}
+  }
+}
+
+.bridge-Course{
+.ol-class-section{padding-top: 0;
+  .ourclass{
+    .ourclass-banner{display: inline-block;width:55%;vertical-align:middle;
+      @include breakpoint(max,767px){display: block;width: 100%;}
+      img{display: block;width: 100%;}
+    }
+   .our-classbtn.our-classbtn01{margin-bottom: 0;}
+  }
+  .side-text{width: 43%;vertical-align: middle; display: inline-block;
+    @include breakpoint(max,767px){display: block;width: 100%;text-align: center;padding: 3rem;}
+    .our-classtext{width: 65%;margin-bottom: 3rem;
+      @include breakpoint(max,970px){width: 85%;margin-bottom: 2rem;}
+      @include breakpoint(max,767px){width: 100%;}
+    }
+  }
+  .our-classbtn{display: inline-block;padding: 2rem 3.6rem;margin-bottom: 3.8rem; background: linear-gradient(90deg, #760B28 0%, #88236F 100%);
+    @include breakpoint(max,970px){margin-bottom: 2.5rem;}
+    a{color: #ffffff !important;}
+  }
+  .our-classbtn01{display: block;text-align: center;}
+}
+}
+
+.canada-section{background: none; padding-top: 0;
+  .container{
+    .key-topics-flex{border: none;    display: flex;
+      .box{padding: 3rem;
+        .heading05{font-size: 2.8rem;font-weight: 500;text-align: center;}
+      }
+    }
+    .title001{font-size: 3.6rem;line-height: 4.6rem;font-weight: 500;}
+    .title01{color: #000000;font-weight: 400;margin-top: 2.5rem;margin-bottom: 2.5rem;}
+    .part-table{margin-top: 7rem;
+      .box{width: 33.33%;
+        @include breakpoint(max,767px){width: 100%;}
+      }
+    }
+    .part-table-two{
+      .box{width: 50%;
+        @include breakpoint(max,767px){width: 100%;}
+      }
+    }
+  }
+}
+
+.red{background-color: #760B28 !important;color: #ffffff !important;}
+.dark-red{background-color: #3F0D1A !important;color: #ffffff !important;}
+.Fees-section{
+  .part-table{
+    .heading02{color: #760B28;margin-bottom: 3rem;}
+    .title01{color: #000000;margin-bottom: 6.5rem;}
+  }
+  table{width: 80%;margin: 0;
+    th{width: 50%;}
+    tr{width: 50%;}
+  }
+  .title01{margin-top: 2.8rem;color: #000000;}
+  .progam-info{
+    .title01{font-size: 2.8rem;line-height: 3.5rem;margin-top: 6rem;}
+    li{font-size: 2.8rem;line-height: 3.5rem;font-weight: 500;}
+  }
+}
+
+// CANADA BANNER // CPA INNER PAGE
+.can_banner{ background-color: #eeeeee;margin-bottom: 8rem;
+  .can_banner_img{width: 30%;display: inline-block;vertical-align: middle;
+    @include breakpoint (max,970px){width: 40%;}
+    @include breakpoint (max,767px){width: 100%;display: block;}
+  }
+  .can_text{width: 60%;display: inline-block;padding-left:20rem; vertical-align: middle;
+    @include breakpoint (max,970px){padding-left: 10rem;}
+    @include breakpoint (max,767px){width: 100%;display: block;padding-bottom: 5rem;}
+    @include breakpoint (max,500px){padding-left: 5rem;}
+    .canHeading{display: flex;align-items: center;margin-bottom: 3rem;
+      @include breakpoint (max,970px){margin-bottom: 0;}
+      .heading02{ color: #760B28;}
+    }
+    .title01{color: #000000;margin-bottom: 3rem;}
+    // .can-text{margin-bottom: 6rem;width: 75%;
+    //   @include breakpoint (max,970px){margin-bottom: 3rem;width: 90%;}
+    // }
+  }
+}
+
+// CANADA PAGE || CANADA CPA DESIGNATION
+
+.canada-section {
+  .container-l{width: 100%;
+    .journey-container{grid-template-columns: repeat(4, 1fr);
+      @include breakpoint(max,767px){    grid-template-columns: repeat(1, 1fr);       grid-row-gap: 3rem;}
+      .journey-box{
+      figcaption{text-align: center;padding-inline: 3rem;
+        ul{padding-left: 0; 
+        li{list-style: none;text-align: center;font-size:2.8rem;}
+      }
+    }}
+    }
+  }
+  .usp-section{border-bottom: none;padding: 0;
+  .container-l{
+    .usp-container{margin-top: 6rem;}
+  }}
+}
+
+
+// CPA INNER NEWS PAGE 
+// news Banner
+.cpa-news-page{
+  .newsbanner{padding: 6rem 0;}
+  .two-box-row{display: grid;grid-template-columns: 57% 40%;grid-gap: 3%;margin-top: 4rem;
+  @include breakpoint(max,767px){grid-template-columns: 1fr;}
+}
+  .requirements-section{li{margin-top: 4rem;}}
+  .reciprocity-section{
+    .twoBox{display: grid;grid-template-columns: 1fr 1fr;grid-gap: 8rem;align-items: start;
+      @include breakpoint(max,767px){grid-template-columns: 1fr;grid-gap: 0}
+      .mobile{display: none; @include breakpoint(max,767px){display: block;}}
+      .content { @include breakpoint(max ,767px){display: none;}
+        &.active{display: block;}
+    }}
+  }
+  .evolution-section{padding-bottom: 5rem;
+    .date{margin-top: 0;}
+    .heading03{margin-top: 4rem;
+    @include breakpoint(max,500px){line-height: 4.8rem;}}
+    .pre-evolution{margin-top: 4rem;
+    .heading04{margin-top: 4rem; @include breakpoint(max,500px){line-height: 4.8rem;}}}
+    .about{ul{margin-top: 4rem;}}
+  p{margin-top: 4rem;}}
+  p, li{
+    @include breakpoint(max,767px){font-size: 3rem;line-height: 3.9rem;}
+  }
+}
+//  COMMON FORM BOX
+.right-form-box {padding: 6.9rem 3.8rem;background: rgba(255, 245, 245, 1);
+  .form-box{
+    .heading06{margin-bottom: 5rem;}
+    .input-box{margin-top: 5rem; border-bottom: solid 1px $primary-color; &:last-child{border-bottom: none;}&:first-child{margin-top: 0;}
+  input{background-color:rgba(255, 245, 245, 1);color: $primary-color !important;
+    &::placeholder{color: $primary-color;}}
+    .form-control {@include breakpoint(max,970px){height: 25px;}}
+  .flag-dropdown .selected-flag{background-color:rgba(255, 245, 245, 1);}
+  .react-tel-input + input {
+    @include breakpoint(max,970px){padding:0;}  
+}
+}
+  }}
+
+// AWARDS PAGE
+.award-banner{padding: 4rem 0; background: linear-gradient(90deg,rgba(254, 206, 206, 0.5)0%,rgba(255, 241, 241, 0.5)100%);
+  .container{width: 117.2rem;
+    @include breakpoint(max,767px){width: 90%;}
+  .awards-heading{text-align: center;
+    .heading04{color:$primary-color;
+    &:first-child{padding:.8rem 1.5rem;border: 1px solid $primary-color;border-radius: 91px;display: inline-block;}}
+  }
+  .awardies{display: flex; justify-content: space-between;margin-top: 4rem;
+  .img-box{width: 33.5rem;
+    @include breakpoint(max,767px){width: 30%;}
+    @include breakpoint(max,500px){width: 32%;}
+  }}
+}
+}
+
+// Award winner section || Elijah Watt Sells Award  | Simandhar Education
+.award-winner-section{padding: 8rem 0;
+  .two-box-row{display: grid;grid-gap: 10rem;grid-template-columns: 57% 37.2%;
+    @include breakpoint(max,767px){display: block;}
+  }
+  .toppers-journey{.three-box-flex {display: flex;justify-content: space-between;grid-gap: 4rem;
+    @include breakpoint(max,500px){flex-wrap: wrap;}
+    .video-card{width: 33.33%; 
+      @include breakpoint(max,767px){width: 50%;}
+      @include breakpoint(max,500px){width: 100%;margin-bottom: 3rem;}
+    .title01{color: #000000;
+    
+    }}}}
+  p{margin-top: 4rem;
+   @include breakpoint(max,767px){line-height: 3.9rem;}
+  }
+  .heading03{text-align: center;}
+
+  .student-alumni {
+    .container-l{@include breakpoint(max,500px){width: 100%;} }
+  }
+}
+
+// Award Section Placment || Elijah Watt Sells Award  | PLACEMENT | Simandhar Education
+.award-winner-section{
+  .palcement{
+    .testimonial-placement{
+      .container-l{width: 100%;
+    .heading02{font-size: 4.8rem;text-align: center;}
+    .placement-container{margin-top: 4rem;display: flex;flex-wrap: wrap;justify-content: center;align-items: center;column-gap:8rem;
+      .pm-card{    width: 30%;
+        figure{
+          figcaption{    padding: 1rem 5rem;
+            p{margin-top: 0;}
+          }
+        }
+      }
+    }
+   
+    .container{
+      @include breakpoint(max,500px){width: 100%;}
+    }
+  }
+}
+}
+}
+
+//counseling-register || Elijah Watt Sells Award  | Simandhar Education
+.counseling-register{background:$gradient; padding: 7rem 5rem ;
+.heading02{color: #fff;padding-bottom: 1.4rem;}
+.heading03{color: #fff;font-weight: 600;margin-top: 3rem;}
+a{margin-top: 4rem;}
+}
+
+// accounting-banner // CPA INNER PAGE
+.accounting-banner{background:$gradient-light;
+  .can_banner{display: grid;grid-template-columns: 35% 65%; background: none; align-items: flex-end;
+    @include breakpoint(max,970px){grid-template-columns: 45% 55%;}
+    @include breakpoint(max,767px){display: flex;flex-direction: column-reverse;}
+    .can_banner_img{width: 100%;}
+    .right-form-box{background: none;
+      @include breakpoint(max,970px){padding: 0rem 3.8rem 3rem 0rem;}
+      @include breakpoint(max,767px){text-align: center;}
+      @include breakpoint(max,500px){padding: 3rem;}
+      .heading03{font-weight: 500;margin-top: 3rem;
+        @include breakpoint(max,970px){margin-top: 2rem;}
+        @include breakpoint(max,767px){font-size: 4rem;}
+      &.bold{font-weight: 700; background-color: $primary-color;color: #fff;padding: 1rem 2rem;border-radius: 9.1rem;display: inline-block;
+      @include breakpoint(max,970px){padding: 2rem 5rem;}
+      @include breakpoint(max,767px){font-size: 3rem;}
+    }}
+      div .heading03{padding: 1rem 2rem;margin-top: 5rem;color: $primary-color;border: 1px solid $primary-color;display: inline-block; border-radius: 9.1rem;
+      @include breakpoint(max,970px){margin-top: 3rem;}}
+    }
+  }
+}
+
+// FNP SECTION 
+.fnp-section{padding-bottom: 8rem;
+  .heading02{ @include breakpoint(max,767px){text-align: left;} }
+  p{margin-top: 3rem;
+  @include breakpoint (max,767px){text-align: left;} }
+}
+
+// Register for the Course
+.register-section{background: $gradient;padding: 5rem 15rem;margin: 8rem 0;
+  @include breakpoint(max,970px){padding: 5rem 0;}
+  @include breakpoint(max,767px){margin: 0;}
+  .container-l{position: relative;
+    .left-box{width: 81rem;display: inline-block;
+      @include breakpoint(max,970px){width: 70rem;}
+      @include breakpoint(max,767px){width: 100%;}
+      .heading02{color: #fff;}}
+    .right-form-box{position: absolute;top: -40%;border-radius: 3.3rem;right: 0;padding: 5rem;
+      @include breakpoint(max,970px){top: -55%;}
+      @include breakpoint(max,767px){position: static;margin-top: 4rem;}
+      .form-box .heading06 { margin-bottom: 4rem;}
+    }
+    }
+  }
+
+//UNIQUE SECTION
+.unique-section{padding-top: 8rem;
+  .heading04{color: $secondary-color;text-align: center; }
+  .heading02{margin-bottom: 2rem;}
+  .row-flex{display: flex; align-items: center;margin-top: 6rem;
+    @include breakpoint(max,767px){display: grid;grid-template-columns: 1fr 1fr;row-gap: 3rem;}
+    .column-flex {padding: 0 11.5rem; text-align: center;border-left:1px solid;
+       &:first-child{border-left: none;}
+       &:nth-child(3){@include breakpoint(max,767px){border-left: none;}}
+      .heading02{color: $secondary-color;margin-bottom: 1rem;}
+      .title01{color: $secondary-color;}
+    @include breakpoint(max,970px){padding: 0 8.5rem;}
+  @include breakpoint(max,500px){padding: 0 0.5rem;} }
+  }
+}
+
+// UNIQUE GRID SECTION
+.unique-grid{
+  .section{padding-top: 0rem;
+    .container-l{
+      .help-container{
+        dl{ padding-inline: 3rem; 
+        &:last-child{padding-inline: 1rem; }}
+      }
+    }
+  // .grid{display: grid;grid-template-columns: 1fr 1fr 1fr 1fr;text-align: center;justify-content: center;row-gap: 8rem;
+  //   @include breakpoint(max,767px){grid-template-columns: 1fr 1fr 1fr;grid-row-gap: 4rem;}
+  //   @include breakpoint(max,500px){grid-template-columns: 1fr 1fr;}
+  //   .grid-card{padding-inline: 3.5rem;}
+  //   .image-card {width: 10rem;margin: 0 auto;margin-bottom: 2rem;}
+  // }
+}
+}
+
+// benifits-section || Who can Benefit from this Course?
+.benifits-section{
+  .container{max-width: 122rem;
+    .benefits-container{margin-top: 15rem;display: flex;justify-content: space-between; align-items: flex-start;
+      @include breakpoint(max,500px){flex-direction: column;row-gap: 15rem;}
+      .achiever-box{background-color: $primary-color; padding: 4rem;padding-top: 14.4rem;border-radius: 3.3rem;position: relative; width: 48rem;
+        @include breakpoint(max,970px){width: 50rem;}
+        @include breakpoint(max,767px){width: 49%;}
+        @include breakpoint(max,500px){width: 100%;}
+         .achiever-img {border-radius: 100%;width: 20.8rem;height: 20.8rem;overflow: hidden;position: absolute;top: -10.4rem;left: 0;right: 0;margin: 0 auto;
+    }
+    figcaption{
+      p{color: #fff;}
+    }}
+    }
+  }
+}
+
+// Mixed Gradient section
+.mixed-gradient{margin-block: 8rem;
+  .two-box-grid{display: grid;grid-template-columns: 49% 51%;
+    @include breakpoint(max,970px){grid-template-columns: 50% 50%;}
+    @include breakpoint(max,500px){grid-template-columns: 100%;}
+    .heading05{margin-bottom: 2rem;color: #fff;}
+  .left-box{padding-left: 19.5rem;padding-right: 3rem;background: $reverse-gradient;padding-top: 10.5rem;padding-bottom: 12rem;margin-right: -2px;position: relative;
+    @include breakpoint(max,970px){padding-left: 5.5rem;padding-block: 7rem;}
+  &::after{content: "";width: 1px;background-color: #FFFCFC;height: 32rem;position: absolute;right: 0;top: 18%;
+  @include breakpoint(max,500px){content: none;}}
+}
+  .right-box{padding-right: 9rem;padding-left: 3rem;background: $gradient;padding-top: 10.5rem;padding-bottom: 12rem;
+  @include breakpoint(max,970px){padding-right: 5rem;padding-block: 7rem;} }
+
+}
+}
+
+// What will you get from Simandhar’s FNP
+.simandhar-fnp{padding: 8rem 0;
+  .two-box-flex {display: grid;grid-template-columns: 46% 50%;grid-gap: 6rem;margin-top: 4rem;
+    @include breakpoint(max,767px){grid-template-columns: 100%;}
+  .left-box{
+    li{margin-top: 3rem;}
+  }}
+}
+
+//counseling Register
+.register-counseling{
+  .heading03{text-align: center;}
+  .heading04{text-align: center;color: $secondary-color;margin-top: 3rem;}
+  .register-container{margin: 8rem 0;
+    .heading03{color: $primary-color;text-align: left;}
+    .left-box{display: inline-block;width: 56.4rem;padding-right: 4rem;vertical-align: top; 
+      @include breakpoint(max,1034px){width: 45%;}
+      @include breakpoint(max,767px){width: 100%;}
+      .flex-row{display: grid;grid-template-columns: 10% 80%;margin-top: 3rem;
+      .img-box{width: 2.5rem;margin: 0 auto;}}
+    }
+    .right-box{display: inline-block;padding-left: 9rem;width: 105.6rem;border-left: 1px solid;
+      @include breakpoint(max,1034px){padding-left: 4rem;width: 55%;}
+      @include breakpoint(max,767px){width: 100%;margin-top: 5rem;border-left: none;padding-left: 0;}
+    .form{
+      .resource-form{
+        .custom-select{width: 50%;}
+        .tab-box.resource-btn {margin-top: 5rem;}
+      }
+    }}
+  }
+
+}
+
+// simandhartieups-section || Corporate Tie-Ups
+.simandhartieups-section{text-align: center;margin: 8rem 0;
+  .container{padding-inline: 4rem;
+  .heading02{color: $primary-color;}
+  p{margin-top: 2.7rem;}}
+}
+
+.logo-section{margin-bottom: 8rem;
+  .logo-grid{display: grid;grid-template-columns: repeat(5,1fr);grid-gap: 3rem;
+  @include breakpoint(max,767px){grid-template-columns: repeat(3,1fr);}
+  @include breakpoint(max,500px){grid-template-columns: repeat(2,1fr);} }
+}
+
+// TESTIMONIAL PAGE || 
+.testmonial-hero-section{padding-top: 3rem; margin-bottom: 8rem;
+  .heading02{color: $primary-color;text-align: center;font-weight: 600;padding-inline: 2rem;}
+  .hero-flex{ margin-top: 8rem;display: grid;grid-template-columns: 37% 1fr;
+    @include breakpoint(max,970px){grid-template-columns: 45% 1fr;}
+    @include breakpoint(max,500px){display: flex;flex-direction: column-reverse;}
+    .right-video-box{background-color: #79141C;padding:6.9rem 2.1rem ;}
+    .left-form-box.right-form-box{
+      .form-box{
+        .input-box.custom-select{width: 70%;}
+      }
+    }
+  }
+}
+
+// Simandhar Recent US CPA and US CMA Placements || TESTIMONIAL PAGE
+.testimonial-placement{
+  .placement-container{display: grid;grid-template-columns: 1fr 1fr 1fr;grid-gap: 8.3rem;margin-top: 7rem;
+    @include breakpoint(max,970px){grid-gap: 3.3rem;}
+    @include breakpoint(max,767px){grid-template-columns: 1fr;}
+    .pm-card{
+      figure{position: relative;
+        .achiever-img{
+          .logo{position: absolute;top: 2%;right: 6%;width: 6rem;}}
+          figcaption {position: absolute;bottom: 0;left: 0;right: 0;background-color: rgba(118, 11, 40, 0.8);padding: 2rem 5rem;overflow: hidden;border-radius: 0 0 3rem 3rem;
+          p{color: #fff;}}
+      }
+    }
+  }
+}
+
+// TESTIMONAL ACHIVER 
+.testimonial-achiver{
+  .container{max-width: 162rem;
+  .achiever-container{row-gap: 15rem;height: 125rem;overflow: hidden;
+    @include breakpoint(max,767px){padding-top: 0rem;height: auto;}
+    &.active{height: auto;}
+    .achiever-box{
+    figcaption{
+      .content  {@include breakpoint(max,970px){min-height:25rem ;} @include breakpoint(max,767px){min-height:auto ;}}
+      .flex-row{justify-content: space-between; align-items: center; display: flex;
+      .logo{width: 4rem;}}
+    }
+  }
+  }
+}
+}
+
+// TESTIMONIAL VIDEO PAGE 
+
+.testimonial-video-section{margin-top: 4rem;
+  .heading02 {
+    &:first-child{color: #760B28;}
+  }
+  .section{padding-top: 5rem;
+    .heading02{color: #2C2C2C;font-size: 4.8rem;line-height: 5.7rem;}
+    .video-thumbbox{
+      .btn{display: none;}
+    }
+  }
+}
+.testimonialVideotab{
+  .gridRow{grid-template-columns: 1fr 1fr 1fr 1fr;grid-gap: 3.3rem;row-gap: 8rem;margin: 8rem 0;
+    @include breakpoint (max,970px){grid-template-columns: 1fr 1fr 1fr;}
+    @include breakpoint (max,767px){grid-template-columns: 1fr 1fr ;}
+    @include breakpoint (max,500px){grid-template-columns:1fr ;}
+  }
+}
+
+
+// ACHIVERS CPA LICENSE
+.testimonial-achivers{
+  .container{max-width: 162rem;
+  .heading02{text-align: center;}
+  .achiever-container{row-gap: 15rem;}
+  }
+}
+
+// CPORPORATE PAGE 
+.corporateSection{
+  .help-container{display: block;max-width: 123rem;width: 100%;margin: 0 auto;
+    @include breakpoint(max,767px){width: 90%;}
+    .heading02{color: #760B28;}
+
+    p{
+      @include breakpoint(max,767px){line-height: 3.9rem;}
+    }
+  }
+  .gridBox{display: grid;grid-template-columns: 1fr 1fr 1fr 1fr;grid-gap: 4.5rem;margin-top: 6.5rem;
+    @include breakpoint (max,970px){grid-template-columns: 1fr 1fr 1fr;}
+    @include breakpoint (max,767px){grid-template-columns: 1fr 1fr ;}
+    @include breakpoint (max,500px){grid-template-columns:1fr ;}
+    .box{position: relative;overflow: hidden;
+      &:hover .overlay{transform: translateY(0);z-index: 9;}
+      .overlay{position: absolute;background-color: rgb(118 11 40 / 80%);transform: translateY(100%);transition: .3s ease all;
+        .btn {position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);z-index: 99999;width: 60%;}
+      }
+    }
+  }
+}
+
+.corporateRecord_section{.heading02{color: #760B28;}}
+
+.gridRow{display: grid;grid-template-columns: 1fr 1fr 1fr;grid-gap: 7.5rem;margin-top: 6.5rem;
+  @include breakpoint (max,767px){grid-template-columns: 1fr 1fr ;}
+  @include breakpoint (max,500px){grid-template-columns:1fr ;}
+  .box{
+    .content_img{position: relative;overflow: hidden;margin-bottom: 2.8rem;}
+    &:hover .overlay{transform: translateY(0);z-index: 9;}
+    .overlay{position: absolute;background-color: rgb(118 11 40 / 80%);transform: translateY(100%);transition: .3s ease all;
+      .btn {background-image: none; position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);z-index: 99999;width: 60%;
+        
+      }
+      .overlay_img{width: 80% !important;position: absolute;left: 50%;top: 50%;transform: translate(-50%, -50%);color: #ffffff;font-size: 2rem; display: block;
+        .resp-img{width: 25% !important;display: block;margin: 0 auto;margin-bottom: 1rem;}
+      }
+    }
+    .content_txt{
+      .title01{color: #000000;}
+    }
+  }
+}
+
+.corporate-webinar{
+  .gridRow{display: grid;grid-template-columns: 1fr 1fr 1fr 1fr;grid-gap: 4.5rem;margin-top: 6.5rem;
+    @include breakpoint (max,970px){grid-template-columns: 1fr 1fr 1fr;}
+    @include breakpoint (max,767px){grid-template-columns: 1fr 1fr ;}
+    @include breakpoint (max,500px){grid-template-columns:1fr ;}
+  }
+
+}
+
+// SEC - Student Engagement Council || Section one
+.Student_enagagement_banner{
+  .container{ text-align: center;
+  .heading02{color:$primary-color;}
+}
+}
+
+.SECfeature{
+  .feature_container{display: grid;grid-template-columns: repeat(3, 1fr);grid-gap: 9rem;text-align: center;
+    @include breakpoint(max,767px){grid-template-columns: repeat(2, 1fr);}
+    @include breakpoint(max,500px){grid-template-columns: 1fr;}
+    .card{
+      .heading05{padding-block: 2.5rem;}
+      .resp-img{max-width: 11.2rem;}
+    }
+  }
+}
+
+.sec_banner_section{
+  .banner-grid{display: grid;grid-template-columns: 36% 28% 36%;
+    @include breakpoint(max,767px){grid-template-columns:1fr;}
+    .right-form-box{padding: 7rem 3.8rem;}
+    .middel-box{text-align: center;    padding-block: 14.5rem;    box-shadow: 4px 10px 25px #888888;
+      img.resp-img{max-width: 30.2rem; vertical-align: middle;}
+    }
+    .left-box{background-color: $primary-color; text-align: center;padding-block: 5rem;
+    img.resp-img{max-width: 55.5rem;}
+    }
+
+  }
+}
+
+// Our Newsletters || Simandhar's Student Engagement Council
+.newsletter-section{
+  .container-l{
+    .newletter_grid{display: grid;grid-template-columns: repeat(4 ,1fr);
+      .box{padding: 3.8rem 8rem; border: 1px solid $primary-color;border-right: none;margin-top:3rem;
+        &:last-child{border: 1px solid $primary-color;}
+      .title01{width: max-content;}}
+    }
+  }
+}
+
+// Follow SEC Social Media Pages
+.socialMedia-section{margin-top: 8rem;
+  .container-l{
+    .grid{display: flex;margin-top: 3rem;}
+  }
+}
+
+//  Career Page || 
+.careersSection{
+  .help-container{display: block; max-width:123rem; width: 100%; margin: 0 auto;
+    .mainheading{
+      .heading02{color: #760B28;}
+    }
+  }
+  .container{margin-top: 5rem;
+    .heading02{font-size: 4.8rem;line-height: 5.2rem;}
+    .careersBoxs{align-items: baseline;margin-top: 6rem; display: grid;grid-template-columns: 1fr 1fr;column-gap: 2rem;row-gap: 6rem;
+      .box{padding: 3rem;background-color: #1E1E1E;border-radius: 3.3rem;
+        &:nth-child(odd){background-color: #1E1E1E;}
+        &:nth-child(even){background-color: #760B28;}
+        .caption{font-size: 3.2rem;line-height: 3.7rem;color: #ffffff;font-weight: 400;}
+        .title{font-size: 2rem;line-height: 3.7rem;font-weight: 500;color: #ffffff;margin-top: 1.1rem;}
+        .discription{font-size: 2rem;line-height: 3.7rem;font-weight: 400;color: #ffffff;margin-top: 4.1rem;
+          .title01{color: #ffffff;margin-bottom: 2rem;}
+        }
+        .discription01{display: none;
+          &.active{display: block;}
+          .content{margin-bottom: 4rem;
+            &:last-child{margin-bottom: 0;}
+          ul{
+            li{font-size: 2rem;line-height: 3.7rem;font-weight: 400;color: #ffffff;}
+          }
+        }
+        }
+        .buttons{font-size: 2rem;line-height: 2.5rem;font-weight: 500;margin-top:3rem;
+          .btn.white-border-btn{margin-right: 3rem;
+          &:hover{background-color: #ffffff;color: #760B28;background-image: url(/img/cross_arrow.svg);border: none;}
+          }
+        .btn.white-btn{
+          &:hover{background-color: transparent;}
+          }
+        }
+      }
+    }
+  }
+}
+
+// CONTACT US PAGE  || START
+.cpaInnerCon{
+  .contactUs{margin-top: 4rem;
+    .container{
+      .mainheading{margin-bottom: 5rem;
+        .heading02{color: #760B28;}
+      }
+      .baseHeading{
+        .heading02{font-size: 4.8rem;line-height: 5.5rem;font-weight: 700;}
+      }
+      .flag-contaniner{margin-bottom: 8rem;display: grid;grid-template-columns: 1fr 1fr 1fr;column-gap: 2.5rem;row-gap: 10.5rem;margin-top: 11.5rem;
+        @include breakpoint (max,767px){grid-template-columns: 1fr 1fr;}
+        @include breakpoint (max,500px){grid-template-columns: 1fr;}
+        .flag01{border: 2px solid #2C2C2C;border-radius:3rem;padding-bottom:4rem;
+          .flagImg{width: 18.5rem;margin: 0 auto;margin-top: -5.5rem;
+            img{border: 2px solid #2C2C2C;padding: 2px;background: #ffffff;}
+          }
+          p{font-size: 2.2rem;line-height: 2.8rem;}
+          .title{font-size: 2.4rem;line-height: 3rem;font-weight: 500;margin-top: 3.8rem;}
+          .Credentials{font-size: 2.2rem;line-height: 2.8rem;font-weight: 500;margin-top: 2.1rem;}
+          .tel{font-size: 2.2rem;line-height: 2.8rem;font-weight: 500;margin-top: 2.1rem;
+            span{display: inline-block;vertical-align: middle;}
+            p{display: inline-block;vertical-align: middle;margin-left: .5rem;}
+          }
+          .conEmail{font-size: 2.2rem;line-height: 2.8rem;font-weight: 500;margin-top: 2.1rem;
+            span{display: inline-block;vertical-align: middle;}
+            p{display: inline-block;vertical-align: middle;margin-left: .5rem;}
+          }
+        }
+      }
+      .flag-contaniner01{row-gap: 14rem;
+        @include breakpoint (max,767px){grid-template-columns: 1fr 1fr;}
+        @include breakpoint (max,500px){grid-template-columns: 1fr;}
+        .flag01{
+          .flagImg{margin-top: -9.5rem;
+            img{border-radius: 100%;}
+          }
+          .conEmail{span{display: block;}}
+        }
+      }
+    }
+  }
+  .conpinkbg{background: linear-gradient(90deg, rgba(254,206,206,1) 0%, rgba(255,241,241,1) 50%);padding-top:6rem;
+    .banContent{display: grid;grid-template-columns: 35% 65%;align-items: center;
+      @include breakpoint (max,970px){
+        display: block;
+      }
+      @include breakpoint (max,767px){display: flex;flex-direction: column-reverse;}
+      .leftBox{
+        @include breakpoint (max,970px){
+          display: inline-block;width: 30%;vertical-align: baseline;
+        }
+        @include breakpoint (max,767px){display: block;width: 65%;}
+      }
+      .rightBox{
+        .mainTitle{
+          span{color: #760B28;border: 1px solid #760B28;border-radius: 5rem;padding: .7rem 1.1rem;
+            @include breakpoint(max,500px){display: block;margin-top: 2rem;}
+          }
+        }
+        .content{
+          .para{font-size: 3.6rem;line-height: 4.1rem;font-weight: 500;margin-top: 3rem;}
+          .para02{width: 55%;margin: 0 auto;color: #760B28;margin-top: 3rem;
+            @include breakpoint (max,970px){
+              width: 70%;
+            }
+          }
+        }
+        @include breakpoint (max,970px){
+          display: inline-block;width: 70%;vertical-align: bottom;padding-bottom: 6rem;
+        }
+        @include breakpoint (max,767px){display: block;width: 100%;}
+      }
+    }
+  }
+  .conImgbg{position: relative;
+    .twoImg{
+      .desk-ban{
+        @include breakpoint (max,767px){display: none;}
+      }
+      .mob-ban{display: none;
+        @include breakpoint (max,767px){display: block;}
+      }
+    }
+    .fixid-box01{display: flex;align-items: center; position: absolute;top:0;bottom:0;left:8%;
+      @include breakpoint(max,500px){align-items: self-start;padding-top: 5rem;}
+      .conImgTxt{
+      .support{font-size: 3.6rem;line-height: 4.1rem;font-weight: 500;margin-bottom: 2rem;}
+      ul{
+        li{font-size: 2.2rem;line-height: 3.2rem;font-weight: 500;}
+      }
+    }
+  }
+    
+    // position: absolute;top: 32%;right: 0;
+    .fixid-box{width: 37%;position: absolute;top: 0;right: 0;bottom: 0;display: flex;justify-content: center;align-items: center; background-color: rgba(118, 11, 40, 0.8);
+      @include breakpoint(max,500px){position: initial;width: 100%;padding: 5rem 0;}
+      .conImgTxt1{
+        .doubts{font-size: 3.2rem;line-height: 3.7rem;font-weight: 500;width: 60%;color: #ffffff;margin: 0 auto;
+          @include breakpoint(max,767px){width: 80%;}
+        }
+        .number{margin-top: 5.2rem;
+        span , p{font-size: 3.2rem;line-height: 3.7rem;font-weight: 500;color: #ffffff;}
+        }
+      }
+    }   
+  
+  }
+}
