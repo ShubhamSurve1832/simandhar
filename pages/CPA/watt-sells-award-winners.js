@@ -22,7 +22,7 @@ const WattSellsAward = () => {
             </div>
 
             {/* Award Section */}
-            {/* <section className='award-banner'>
+            <section className='award-banner'>
                 <div className='container'>
                     <div className='awards-heading'>
                         <h4 className='heading04'>Congratulations</h4>
@@ -35,7 +35,7 @@ const WattSellsAward = () => {
                         <div className='img-box'><Image src="/img/KavneetHanspal.webp" alt="" layout="fill" className='resp-img' /></div>
                     </div>
                 </div>
-            </section> */}
+            </section>
 
             {/* Award Winners */}
             <section className='award-winner-section'>
@@ -46,7 +46,7 @@ const WattSellsAward = () => {
                             <p>The AICPA established the Elijah Watt Sells Award in 1923 to recognise exceptional performance on the CPA Exam. Sells, one of the first CPAs in the United States, was instrumental in establishing the AICPA and advancing professional education within the field. The Watt Sells award, named after CPA pioneer Elijah Watt Sells, is granted to candidates who achieve a cumulative average score of 95.50 or higher on each of the four portions of the Uniform CPA Examination, complete testing during the calendar year, and pass all four sections on their first try.</p>
                         </div>
                         <div className='right-form-box'>
-                            <CommonForm showTitle={true} />
+                            {/* <CommonForm showTitle={true} /> */}
                         </div>
                     </div>
                     <div className='mt-6'>
