@@ -6,7 +6,7 @@ import Placement from '../../home/placementSection'
 import indexData from '../../database/index.json'
 import CommonForm from '../../components/CommonForm';
 import CpaProgram from '../../components/CpaProgram';
-import indexData from '../../database/index.json'
+
 
 
 
