@@ -6,6 +6,7 @@ import Placement from '../../home/placementSection'
 import indexData from '../../database/index.json'
 import CommonForm from '../../components/CommonForm';
 import CpaProgram from '../../components/CpaProgram';
+import indexData from '../../database/index.json'
 
 
 
@@ -21,7 +22,7 @@ const WattSellsAward = () => {
             </div>
 
             {/* Award Section */}
-            {/* <section className='award-banner'>
+            <section className='award-banner'>
                 <div className='container'>
                     <div className='awards-heading'>
                         <h4 className='heading04'>Congratulations</h4>
@@ -34,10 +35,10 @@ const WattSellsAward = () => {
                         <div className='img-box'><Image src="/img/KavneetHanspal.webp" alt="" layout="fill" className='resp-img' /></div>
                     </div>
                 </div>
-            </section> */}
+            </section>
 
             {/* Award Winners */}
-            {/* <section className='award-winner-section'>
+            <section className='award-winner-section'>
                 <div className='container-l'>
                     <div className='two-box-row'>
                         <div className='left-box'>
@@ -110,7 +111,7 @@ const WattSellsAward = () => {
                     </div>
 
                 </div>
-            </section> */}
+            </section>
         </>
     )
 }
